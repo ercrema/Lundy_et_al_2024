@@ -2,8 +2,8 @@
 library(sf)
 
 # Read CSV file and Shapefile
-lithic_data = read.csv("../CSV_tables/lithicDBv032.csv")
-japan_shape = st_read("../Shapefiles/japan_jgd2000.shp")
+lithic_data = read.csv("../encounter_data/CSV_tables/lithicDBv032.csv")
+japan_shape = st_read("../encounter_data/Shapefiles/japan_jgd2000.shp")
 
 # Convert lithic_data to spatial format using the same CRS as japan_shape
 spatial_lithic = st_as_sf(lithic_data, coords=c("lon","lat"), crs=st_crs(japan_shape))
@@ -62,10 +62,9 @@ other_tools$tot = apply(st_drop_geometry(other_tools), 1, sum)
 total_harvest = apply(st_drop_geometry(harvesting_tools), 1, sum)
 harvesting_tools$perc = (total_harvest + 1) / (other_tools$tot + total_harvest + 1)
 
-# Set graphical parameters
-par(mar=c(6,0,6,0))
 
 # Plot proportions
+
 plot(harvesting_tools[,"perc"], logz=F, pch=20, cex=3, reset=F, breaks=seq(0, 1, length.out = 21), pal=rev(hcl.colors(20,"RdYlGn")), main="")
 mtext(expression(frac(収穫具,収穫具+漁撈具+狩猟具.武器)), 3, -2, cex=1.2)
 plot(st_geometry(japan_shape), add=T)
