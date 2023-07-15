@@ -28,7 +28,7 @@ init.b  <- aggregate(Latest~Region,FUN=min,data=SiteInfo)[,2] - 100
 
 # MCMC RunScript (Uniform Model b) ----
 
-unif.model.b <- function(seed, d, theta.init, alpha.init, delta.init, constants, init.a, init.b, nburnin, thin, niter)
+unif.model <- function(seed, d, theta.init, alpha.init, delta.init, constants, init.a, init.b, nburnin, thin, niter)
 {
 	#Load Library
 	library(nimbleCarbon)
@@ -88,7 +88,7 @@ niter  <- 6000000
 nburnin  <- 3000000
 thin  <- 300
 
-out  <-  parLapply(cl = cl, X = seeds, fun = unif.model.b, d = d,constants = constants, theta.init = theta.init, alpha.init = alpha.init, delta.init = delta.init,  niter = niter, init.a = init.a, init.b = init.b, nburnin = nburnin,thin = thin)
+out  <-  parLapply(cl = cl, X = seeds, fun = unif.model, d = d,constants = constants, theta.init = theta.init, alpha.init = alpha.init, delta.init = delta.init,  niter = niter, init.a = init.a, init.b = init.b, nburnin = nburnin,thin = thin)
 
 post <- mcmc.list(out)
 
@@ -97,6 +97,10 @@ post <- mcmc.list(out)
 rhat.unif <- gelman.diag(post,multivariate = FALSE)
 ess.unif <- effectiveSize(post)
 a.unif <- agreementIndex(d$cra,d$cra_error,calCurve='intcal20',theta=post[[1]][,grep("theta",colnames(post[[1]]))],verbose = F)
+posterior  <- do.call(rbind.data.frame,post)
+posterior  <- posterior[,which(!grepl('theta',colnames(posterior)))]
+
+
 
 # Save output ----
-save(post,rhat.unif,ess.unif,a.unif,file=here("results","phase.RData"))
+save(posterior,rhat.unif,ess.unif,a.unif,file=here("results","phase.RData"))

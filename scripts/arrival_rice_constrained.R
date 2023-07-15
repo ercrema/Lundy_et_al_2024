@@ -28,7 +28,7 @@ init.b  <- aggregate(Latest~Region,FUN=min,data=SiteInfo)[,2] - 100
 
 # MCMC RunScript (Uniform Model b) ----
 
-unif.model.b <- function(seed, d, theta.init, alpha.init, delta.init, constants, init.a, init.b, nburnin, thin, niter)
+unif.model <- function(seed, d, theta.init, alpha.init, delta.init, constants, init.a, init.b, nburnin, thin, niter)
 {
 	#Load Library
 	library(nimbleCarbon)
@@ -93,7 +93,7 @@ niter  <- 6000000
 nburnin  <- 3000000
 thin  <- 300
 
-out  <-  parLapply(cl = cl, X = seeds, fun = unif.model.b, d = d,constants = constants, theta.init = theta.init, alpha.init = alpha.init, delta.init = delta.init,  niter = niter, init.a = init.a, init.b = init.b, nburnin = nburnin,thin = thin)
+out  <-  parLapply(cl = cl, X = seeds, fun = unif.model, d = d,constants = constants, theta.init = theta.init, alpha.init = alpha.init, delta.init = delta.init,  niter = niter, init.a = init.a, init.b = init.b, nburnin = nburnin,thin = thin)
 
 post.constrained <- mcmc.list(out)
 
@@ -101,7 +101,9 @@ post.constrained <- mcmc.list(out)
 
 rhat.unif.constrained <- gelman.diag(post.constrained,multivariate = FALSE)
 ess.unif.constrained <- effectiveSize(post.constrained)
-a.unif.constrained <- agreementIndex(d$cra,d$cra_error,calCurve='intcal20',theta=post.constrained[[1]][,grep("theta",colnames(post.constrained[[1]]))],verbose = F)
+a.unif.constrained <- agreementIndex(d$cra,d$cra_error,calCurve='intcal21',theta=post.constrained[[1]][,grep("theta",colnames(post.constrained[[1]]))],verbose = F)
+posterior.constrained  <- do.call(rbind.data.frame,post.constrained)
+posterior.constrained  <- posterior.constrained[,which(!grepl('theta',colnames(posterior.constrained)))]
 
 # Save output ----
-save(post.constrained,rhat.unif.constrained,ess.unif.constrained,a.unif.constrained,file=here("results","phase_constrained.RData"))
+save(posterior.constrained,rhat.unif.constrained,ess.unif.constrained,a.unif.constrained,file=here("results","phase_constrained.RData"))
