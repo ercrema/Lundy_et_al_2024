@@ -42,7 +42,7 @@ SiteInfo <- data.frame(SiteID = earliest_dates$SiteID,
 		       Diff = earliest_dates$median.dates - latest_dates$median.dates,
 		       N_dates = n_dates$median.dates) |> unique()
 SiteInfo <- left_join(SiteInfo,unique(select(dat,Latitude,Longitude,SiteID,SiteName_jp,SiteName_en,Prefecture,Region)))
-SiteInfo$area.id <- as.numeric(factor(SiteInfo$Region,levels=c('Kyushu','Chugoku','Shikoku','Kansai','Tokai','Hokuriku','Kanto','Tohoku'),ordered=TRUE))
+SiteInfo$area.id <- as.numeric(factor(SiteInfo$Region,levels=c('Kyushu','ChugokuShikoku','Kansai','Tokai','Hokuriku','Kanto','Tohoku'),ordered=TRUE))
 
 # Collect date level information
 DateInfo <- unique(select(dat,ID,LabCode,SiteID,cra=C14Age,cra_error=C14Error,median.dates=median.dates)) |> arrange(ID) 
@@ -73,4 +73,4 @@ constants$C14BP  <- intcal20$C14Age
 constants$C14err  <- intcal20$C14Age.sigma
 
 # Save everything on a R image file ----
-save(sites,constants,dat,SiteInfo,DateInfo,file=here('data','c14rice.RData'))
+save(constants,dat,SiteInfo,DateInfo,file=here('data','c14rice.RData'))
