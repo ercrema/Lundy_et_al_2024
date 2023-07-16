@@ -25,6 +25,7 @@ dat$SiteID  <- as.numeric(factor(dat$SiteName_jp))
 
 # Assign Regions ----
 regions <- read.csv(here("data","c14dates","prefecture_region_match.csv"))
+dat <- dat[,-which(colnames(dat)=='Region')]
 dat <- left_join(dat,regions)
 dat  <- subset(dat,!Region%in%c('Hokkaido','Okinawa'))
 
@@ -42,7 +43,7 @@ SiteInfo <- data.frame(SiteID = earliest_dates$SiteID,
 		       Diff = earliest_dates$median.dates - latest_dates$median.dates,
 		       N_dates = n_dates$median.dates) |> unique()
 SiteInfo <- left_join(SiteInfo,unique(select(dat,Latitude,Longitude,SiteID,SiteName_jp,SiteName_en,Prefecture,Region)))
-SiteInfo$area.id <- as.numeric(factor(SiteInfo$Region,levels=c('Kyushu','ChugokuShikoku','Kansai','Tokai','Hokuriku','Kanto','Tohoku'),ordered=TRUE))
+SiteInfo$area.id <- as.numeric(factor(SiteInfo$Region,levels=c('Kyushu','ChugokuShikoku','Kansai','Tokai','Chubu','Hokuriku','Kanto','Tohoku'),ordered=TRUE))
 
 # Collect date level information
 DateInfo <- unique(select(dat,ID,LabCode,SiteID,cra=C14Age,cra_error=C14Error,median.dates=median.dates)) |> arrange(ID) 
