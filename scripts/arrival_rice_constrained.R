@@ -23,11 +23,11 @@ constants$C14BP <- c(1000000,constants$C14BP,-1000000)
 constants$C14err <- c(1000,constants$C14err,1000)
 
 # Regional Init
+SiteInfo$Region  <- factor(SiteInfo$Region,levels=c('Kyushu','ChugokuShikoku','Kansai','Tokai','Chubu','Hokuriku','Kanto','Tohoku'),ordered=T)
 init.a  <- aggregate(Earliest~Region,FUN=max,data=SiteInfo)[,2] + 100
 init.b  <- aggregate(Latest~Region,FUN=min,data=SiteInfo)[,2] - 100
 
-init.a  <- c(2900,2850,2800,2750,2700,2650,2650,2630,2500) #manually set to meet constrain conditions
-
+all(init.a[1]>init.a[2] & init.a[2]>init.a[3] & init.a[3]>init.a[4] & init.a[3]>init.a[5] & init.a[3]>init.a[6] & init.a[3]>init.a[7] & init.a[5]>init.a[8] & init.a[6]>init.a[8])  
 
 # MCMC RunScript (Uniform Model b) ----
 
@@ -65,7 +65,7 @@ unif.model <- function(seed, d, theta.init, alpha.init, delta.init, constants, i
 		gamma2 ~ T(dnorm(mean=200,sd=100),1,500)
 
 		# Define Dispersal Constraint
-		constraint_dispersal ~ dconstraint(a[1]>a[2] & a[1]>a[3] & a[3]>a[4] & a[2]>a[4] & a[4]>a[5] & a[5]>a[6] & a[4]>a[7] & a[6] > a[8] & a[4] > a[9])  
+		constraint_dispersal ~ dconstraint(a[1]>a[2] & a[2]>a[3] & a[3]>a[4] & a[3]>a[5] & a[3]>a[6] & a[3]>a[7] & a[5]>a[8] & a[6]>a[8])  
 	})
 	# Define Inits
 	inits <- list(theta=theta.init, alpha=alpha.init, delta=delta.init, a=init.a, b=init.b)
