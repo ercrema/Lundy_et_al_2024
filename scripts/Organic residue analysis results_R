@@ -1,0 +1,132 @@
+# R script for all plots used in figures presenting organic resdidue analysis data in manuscript and statistical tests 
+
+install.packages("devtools")
+install.packages("Rcpp")
+install.packages("ggplot2")
+install.packages("ggrepel")
+install.packages("gridExtra")
+install.packages("cowplot")
+install.packages("extrafont")
+install.packages("extrafontdb")
+install.packages("ggrepel")
+install.packages("scales")
+install.packages("dplyr")
+install.packages("googlesheets4")
+install.packages("ggstar")
+install.packages("tibble")
+
+#Filters 
+
+ASAHI <-filter (ALLDATA,Site_code=="ASA")
+HL <-filter (ALLDATA,Subregion=="Central Highlands")
+TOK <-filter (ALLDATA,Subregion=="Tokai")
+
+# Modern reference experiments APAA18 E/H ratio box and dot plot 
+box_plotAPAAref <- ggplot(APAA, aes(x=Cat_code, y=APAA_EH, fill='grey')) +
+  geom_boxplot(width=0.8, size=0.5, outlier.size=1)+ geom_dotplot(binaxis="y", stackdir="center")+scale_fill_manual(values =c ("grey", "lightblue", "lightyellow" ,"lightgreen"))+
+  ylab("E/H APAA") + scale_y_continuous(position = "left",limits=c(0,12))+
+  theme_bw(base_size = 30)
+plot(box_plotAPAAref)
+
+# APAA18 E/H ratio of archaeological samples box and dot plot 
+box_plotALLAPPA1 <- ggplot(ALLDATA, aes(x=Site, y=EH, fill=Subregion)) +
+  geom_boxplot(width=0.8, size=0.2, outlier.size=1)+ geom_dotplot(binaxis="y", stackdir="center")+scale_fill_manual(values=c("#009E73", "#0072B2"))+
+  ylab("E/H APAA") + scale_y_continuous(position = "left",limits=c(0,12))+
+  theme_bw(base_size = 20)
+plot(box_plotALLAPPA1)
+
+# statistical tests 
+kruskal.test(EH ~ Site_code, data = TOK)
+kruskal.test(EH ~ Site_code, data= HL)
+kruskal.test(EH ~ Agriculture, data = HL)
+kruskal.test(EH ~ Agriculture, data = TOK)
+dunn.test(ALLDATA$EH,g= ALLDATA$Site_code)
+dunn.test(HL$EH,g= HL$Site)
+dunn.test(TOK$EH,g= TOK$Site_code)
+
+# Calculate the effect size (Eta-squared)
+n_groups <- length(unique(ASA$Form))
+n <- nrow(ASA)
+
+# Calculate the Kruskal-Wallis statistic
+H <- kruskal_result$statistic
+
+# Calculate the degrees of freedom
+df <- kruskal_result$parameter
+
+# Calculate Eta-squared
+eta_squared <- (H - df) / (n - df)
+
+# Report the effect size
+cat("Kruskal-Wallis Test Effect Size (Eta-squared): ", round(eta_squared, 2), "\n")
+cat("Kruskal-Wallis Test p-value: ", kruskal_result$p.value, "\n")
+
+#  Plot of δ13C16:0 against δ13C18:0 of pottery extracts from central highland sites a) Nakaya, b) Nakamichi, c) Tenshoji and Tokai sites d) Ushimaki, e) Mamizuka and f) Asahi. 
+
+REF <- ggplot()+
+  scale_shape_manual(breaks=c("0","1"), values=c(1,2))+
+  labs(x=expression(delta^{13}*C[16:0]*"(\u2030)"), y=expression(delta^{13}*C[18:0]*"(\u2030)"))+
+  scale_x_continuous(position="top", limits=c(-40,-15))+
+  scale_y_continuous(position = "left",limits=c(-40,-15))+
+  theme_bw()+
+  theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())+
+  theme(axis.ticks.length=unit(-0.2,"cm"))+
+  theme(plot.title=element_text(hjust=0.5, family = "Times New Roman"))+
+  theme(axis.text=element_text(size=18),
+        axis.title = element_text(size=18),
+        axis.text.x.top = element_text(margin = margin(b = 8)),
+        axis.title.x.top = element_text(margin = margin(t=10, b=15)),
+        axis.text.y.right = element_text(margin = margin(l= 8)),
+        axis.title.y.right = element_text(margin = margin(l=15)),
+        title = element_text(size=18)) +
+  guides(color=FALSE, shape=FALSE)+
+  #geom_abline(intercept=-3.3, slope= 1, linetype="dashed")+
+  #geom_abline(intercept=-1 ,slope= 1, linetype="dashed")+
+  annotate("text", label = "C4/millet", x = -20, y = -17, size = 4, colour = "black")+ 
+  annotate("text", label = "Marine", x = -25, y = -22, size = 4, colour = "black")+ 
+  annotate("text", label = "Freshwater", x = -31, y = -29, size = 4, colour = "black")+ 
+  annotate("text", label = "Wild boar", x = -30, y = -27, size = 4, colour = "black")+ 
+  annotate("text", label = "Ruminant", x = -29, y = -35, size = 4, colour = "black")+ 
+  annotate("text", label = "C3 nuts", x = -35, y = -33, size = 4, colour = "black")+
+  annotate("text", label = "Rice", x = -34, y = -34, size = 4, colour = "black")+ 
+  #annotate("text", label="*", x=-33.69, y=-32.57, size=6, colour ="red")+
+  #annotate("text", label="*", x=-32.96, y=-31.63, size=6, colour ="red")+
+  stat_ellipse(geom= "polygon", data=JAP, alpha=0.2, linetype=2, level=0.68, aes (x=d13C16, y= d13C18, group=Catagory))+
+  coord_fixed(ratio = 1)
+plot 1 <- REF + geom_star(data=TOK, aes(y=d13C18,x=d13C16, fill= Miliacin, starshape=Miliacin), size=4, stroke=3, alpha=0.8)+
+  scale_fill_manual(values=cbPalette3)+coord_cartesian(ylim=c(-37,-17), xlim = c(-37,-17))+ scale_starshape_manual(name="Milllet biomarker", breaks=c("yes","no"),values=c(2,15))+
+  facet_grid (~ Phase_order)+  theme_bw(base_size = 25)+   theme(legend.position = "none")+
+  theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())+ theme(strip.background = element_blank(), strip.text = element_blank())
+plot1
+
+plot 2 <- REF + geom_star(data=HL, aes(y=d13C18,x=d13C16, fill= Miliacin, starshape=Miliacin), size=4, stroke=3, alpha=0.8)+
+  scale_fill_manual(values=cbPalette6)+coord_cartesian(ylim=c(-37,-17), xlim = c(-37,-17))+ scale_starshape_manual(name="Milllet biomarker", breaks=c("yes","no"),values=c(2,15))+
+  facet_grid (~ Phase_order)+  theme_bw(base_size = 25)+   theme(legend.position = "none")+
+  theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())+ theme(strip.background = element_blank(), strip.text = element_blank())
+plot2
+
+kruskal.test(d13c16 ~ Site_code, data = TOK)
+kruskal.test(d13c16~ Site_code, data= HL)
+dunn.test(ALLDATA$d13c16,g= ALLDATA$Site_code)
+
+#ASAHI BY PHASE (EARLY/ MIDDLE YAYOI)
+plot 3 <- REF + geom_point(data=ASA, aes(y=d13C18,x=d13C16, shape=Phase), fill= "#CC79A7", colour= 'black', size=3, stroke=1, alpha=0.8)+
+  scale_shape_manual(values=c(21,22,23,24)) +
+  facet_grid (~Phase)+theme_bw(base_size = 15)+
+  theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())
+plot3
+
+kruskal.test(d13c16 ~ Phase, data = ASA)
+
+#ASAHI BY POTTERY FORM 
+plot 4 <- REF + geom_point(data=ASA, aes(y=d13C18,x=d13C16, shape=Phase), fill= "#CC79A7", colour= 'black', size=3, stroke=1, alpha=0.8)+
+  scale_shape_manual(values=c(21,22,23,24)) +
+  facet_grid (~Form)+  theme_bw(base_size = 15)+
+  theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())
+plot4
+
+kruskal.test(d13c16 ~ Form, data = ASA)
+
+
+
+
