@@ -17,7 +17,7 @@ install.packages("tibble")
 
 #Filters 
 
-ASAHI <-filter (ALLDATA,Site_code=="ASA")
+ASA <-filter (ALLDATA,Site_code=="ASA")
 HL <-filter (ALLDATA,Subregion=="Central Highlands")
 TOK <-filter (ALLDATA,Subregion=="Tokai")
 
