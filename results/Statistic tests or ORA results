@@ -1,0 +1,170 @@
+# Dunn test of APAA 18 E/H ratio between Site groups (Asahi split between EY and MY)
+
+> dunn.test(ALLDATA$EH,g= ALLDATA$Site)
+  Kruskal-Wallis rank sum test
+
+data: x and group
+Kruskal-Wallis chi-squared = 19.4975, df = 6, p-value = 0
+
+
+                           Comparison of x by group                            
+                                (No adjustment)                                
+Col Mean-|
+Row Mean |   Asahi(EY   Asahi(MY   Mamizuka   Nakamich     Nakaya   Tenshoji
+---------+------------------------------------------------------------------
+Asahi(MY |  -0.756400
+         |     0.2247
+         |
+Mamizuka |   1.442524   2.365515
+         |     0.0746    0.0090*
+         |
+Nakamich |  -1.337874  -0.706419  -2.718879
+         |     0.0905     0.2400    0.0033*
+         |
+  Nakaya |   0.779742   1.474424  -0.408369   1.933111
+         |     0.2178     0.0702     0.3415     0.0266
+         |
+Tenshoji |  -0.172722   0.689073  -1.905507   1.328941  -1.012173
+         |     0.4314     0.2454     0.0284     0.0919     0.1557
+         |
+Ushimaki |   2.034480   3.023713   0.636010   3.257700   0.890132   2.646951
+         |    0.0210*    0.0012*     0.2624    0.0006*     0.1867    0.0041*
+
+alpha = 0.05
+Reject Ho if p <= alpha/2
+
+
+# Dunn test of APAA 18 E/H ratio between Site groups from Central Highlands 
+
+
+> dunn.test(HL$EH,g= HL$Site)
+  Kruskal-Wallis rank sum test
+
+data: x and group
+Kruskal-Wallis chi-squared = 4.4691, df = 2, p-value = 0.11
+
+
+                           Comparison of x by group                            
+                                (No adjustment)                                
+Col Mean-|
+Row Mean |   Nakamich     Nakaya
+---------+----------------------
+  Nakaya |   2.073326
+         |    0.0191*
+         |
+Tenshoji |   1.584026  -0.926897
+         |     0.0566     0.1770
+
+alpha = 0.05
+Reject Ho if p <= alpha/2
+
+# Dunn test of APAA 18 E/H ratio between Site groups from Tokai
+> dunn.test(TOK$EH,g= TOK$Site)
+  Kruskal-Wallis rank sum test
+
+data: x and group
+Kruskal-Wallis chi-squared = 10.4028, df = 3, p-value = 0.02
+
+
+                           Comparison of x by group                            
+                                (No adjustment)                                
+Col Mean-|
+Row Mean |   Asahi(EY   Asahi(MY   Mamizuka
+---------+---------------------------------
+Asahi(MY |  -0.653800
+         |     0.2566
+         |
+Mamizuka |   1.373655   2.177520
+         |     0.0848    0.0147*
+         |
+Ushimaki |   2.041829   2.911418   0.727652
+         |    0.0206*    0.0018*     0.2334
+
+alpha = 0.05
+Reject Ho if p <= alpha/2
+
+
+# Dunn test of APAA 18 E/H ratio between between site groups 
+
+
+Kruskal-Wallis chi-squared = 18.9254, df = 5, p-value = 0
+
+
+                           Comparison of x by group                            
+                                (No adjustment)                                
+Col Mean-|
+Row Mean |        ASA        MMZ        NKY        NMC        TSJ
+---------+-------------------------------------------------------
+     MMZ |   2.309704
+         |    0.0105*
+         |
+     NKY |   1.276590  -0.408369
+         |     0.1009     0.3415
+         |
+     NMC |  -1.114076  -2.718879  -1.933111
+         |     0.1326    0.0033*     0.0266
+         |
+     TSJ |   0.339140  -1.905507  -1.012173   1.328941
+         |     0.3673     0.0284     0.1557     0.0919
+         |
+     UMK |   3.107103   0.636010   0.890132   3.257700   2.646951
+         |    0.0009*     0.2624     0.1867    0.0006*    0.0041*
+
+alpha = 0.05
+Reject Ho if p <= alpha/2
+
+
+                           Comparison of x by group                            
+                                (No adjustment)                                
+Col Mean-|
+Row Mean |        ASA        MMZ
+---------+----------------------
+     MMZ |   2.152081
+         |    0.0157*
+         |
+     UMK |   3.039503   0.727652
+         |    0.0012*     0.2334
+
+alpha = 0.05
+Reject Ho if p <= alpha/2
+
+#Calculating is there is a statistical difference between Agrciultural Sites (Tensoji and NMC with pre- agricultural sites NKY with effect size) from  Central Highlands 
+> kruskal_result<-kruskal.test(EH ~ Agriculture, data = HL)
+> # Calculate the effect size (Eta-squared)
+> n_groups <- length(unique(HL$Site_code))
+> n <- nrow(HL)
+> 
+> # Calculate the Kruskal-Wallis statistic
+> H <- kruskal_result$statistic
+> 
+> # Calculate the degrees of freedom
+> df <- kruskal_result$parameter
+> 
+> # Calculate Eta-squared
+> eta_squared <- (H - df) / (n - df)
+> 
+> # Report the effect size
+> cat("Kruskal-Wallis Test Effect Size (Eta-squared): ", round(eta_squared, 2), "\n")
+Kruskal-Wallis Test Effect Size (Eta-squared):  0.01 
+> cat("Kruskal-Wallis Test p-value: ", kruskal_result$p.value, "\n")
+Kruskal-Wallis Test p-value:  0.1615133
+
+#Calculating if there is a statistical difference between 1) Agrciultural Sites (Asahi with pre- agricultural sites UMK and MMZ with effect size. 2. Between sites. 
+
+> kruskal.test(EH ~ Agriculture, data = TOK)
+
+	Kruskal-Wallis rank sum test
+
+data:  EH by Agriculture
+Kruskal-Wallis chi-squared = 5.3439, df = 1, p-value = 0.0208
+
+> # Report the effect size
+> cat("Kruskal-Wallis Test Effect Size (Eta-squared): ", round(eta_squared, 2), "\n")
+Kruskal-Wallis Test Effect Size (Eta-squared):  0.03 
+> cat("Kruskal-Wallis Test p-value: ", kruskal_result$p.value, "\n")
+Kruskal-Wallis Test p-value:  0.02079519
+
+> cat("Kruskal-Wallis Test Effect Size (Eta-squared): ", round(eta_squared, 2), "\n")
+Kruskal-Wallis Test Effect Size (Eta-squared):  0.05 
+> cat("Kruskal-Wallis Test p-value: ", kruskal_result$p.value, "\n")
+Kruskal-Wallis Test p-value:  0.006821578
