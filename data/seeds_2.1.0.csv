@@ -1,0 +1,226 @@
+"ID","SiteName","Region","Location","Latitude","Longitude","Period","PotteryType","PotteryPhase","N","Notes","O.sativa.abundance","O.sativa.proportion","O.sativa.presence","P.miliaceum.abundance","P.miliaceum.proportion","P.miliaceum.presence","S.italica.abundance","S.italica.proportion","S.italica.presence","Millets.abundance","Millets.presence"
+1,"Fukuda midden","Chugoku","Kurashiki City",34.578848,133.766674,"Late Half Middle Jomon - First Half Final Jomon",NA,NA,8008,"NA ; Counts: 8008",0,0,FALSE,0,0,FALSE,0,0,FALSE,0,FALSE
+2,"Oishi","Northern Kyushu","Bungoono City",32.984188,131.590692,"Late Jomon",NA,NA,284,"NA ; Counts: 284",0,0,FALSE,0,0,FALSE,0,0,FALSE,0,FALSE
+3,"Wakudoishi","Southern Kyushu","Kikuchi Gun, Ozu City",32.876564,130.87303,"Late Jomon",NA,NA,1061,"NA ; Counts: 1061",0,0,FALSE,0,0,FALSE,0,0,FALSE,0,FALSE
+4,"Kamikaseda","Southern Kyushu","Minamisatsuma City, Kaseda",32.4201,130.3214,"Late Jomon",NA,NA,1,"NA ; Counts: 1",0,0,FALSE,0,0,FALSE,0,0,FALSE,0,FALSE
+5,"Enokihara","Southern Kyushu","Kanoya City",31.3782,130.852,"Final Jomon",NA,NA,590,"NA ; Counts: 590",0,0,FALSE,0,0,FALSE,0,0,FALSE,0,FALSE
+6,"Shimizutennozan","Tokai","Shizuoka City",34.995536,138.331487,"Late Jomon - End of Early Yayoi",NA,NA,5726,"NA ; Counts: 5726",0,0,FALSE,0,0,FALSE,0,0,FALSE,0,FALSE
+7,"Toriihara","Southern Kyushu","Kumamoto City",32.794546,130.692896,"Late Jomon/Final Jomon",NA,NA,761,"NA ; Counts: 761",0,0,FALSE,0,0,FALSE,0,0,FALSE,0,FALSE
+8,"Babagawa","Kinki","Higashiosaka City",34.662778,135.572867,"Final Jomon",NA,NA,2733,"NA ; Counts: 2733",0,0,FALSE,0,0,FALSE,0,0,FALSE,0,FALSE
+9,"Chiamigaito*","Central Highlands","Kiryu City",36.374733,139.34966,"Final Jomon",NA,NA,4096,"NA ; Counts: 4096",0,0,FALSE,1,0.000244140625,TRUE,0,0,FALSE,1,TRUE
+10,"Shimofuda","Kanto","Chofu City",35.652341,139.546324,"Final Jomon - Early Yayoi",NA,NA,11392,"NA ; Counts: 11392",0,0,FALSE,0,0,FALSE,0,0,FALSE,0,FALSE
+11,"Eriana","Central Highlands","Matsumoto City",36.22805,137.969046,"Late Jomon -  Final Jomon",NA,NA,56,"NA ; Counts: 56",0,0,FALSE,0,0,FALSE,0,0,FALSE,0,FALSE
+12,"Shinohara","Kinki","Kobe City",34.650884,135.065325,"Final Jomon",NA,NA,921,"NA ; Counts: 921",0,0,FALSE,0,0,FALSE,0,0,FALSE,0,FALSE
+13,"Fukuda midden","Chugoku","Kurashiki City",34.563283,133.679804,"Final Jomon",NA,NA,NA,"NA ; Counts: overlap with no.1",0,NA,FALSE,0,NA,FALSE,0,NA,FALSE,0,FALSE
+14,"Nakayama midden","Chugoku","Hiroshima City",34.392777,132.457525,"Final Jomon",NA,NA,167,"NA ; Counts: 167",0,0,FALSE,0,0,FALSE,0,0,FALSE,0,FALSE
+15,"Iwata","Chugoku","Kumage Gun, Hirao Cho",33.942067,132.076943,"Final Jomon",NA,NA,7779,"NA ; Counts: 7779",0,0,FALSE,0,0,FALSE,0,0,FALSE,0,FALSE
+16,"Aota","Hokuriku","Shibata City",37.9833,139.3667,"Final Jomon",NA,NA,44,"NA ; Counts: 44",0,0,FALSE,0,0,FALSE,0,0,FALSE,0,FALSE
+17,"Itaya III","Chugoku","Iishi Gun, Iinan Cho",34.9934,132.7168,"Final Jomon","Tottaimon","Tottaimon 1",NA,"NA ; Counts: no data",1,NA,TRUE,0,NA,FALSE,0,NA,FALSE,0,FALSE
+18,"Etsuji","Northern Kyushu","Kasuya City",33.620388,130.49735,"Final Jomon","Tottaimon","Tottaimon 1",NA,"NA ; Counts: no data",0,NA,FALSE,0,NA,FALSE,1,NA,TRUE,1,TRUE
+19,"Ishiiiriguchi","Northern Kyushu","Takeda City",33.0691,131.3812,"Final Jomon","Tottaimon","Tottaimon 1",NA,"NA ; Counts: no data",0,NA,FALSE,0,NA,FALSE,1,NA,TRUE,1,TRUE
+20,"Funagatani","Shikoku","Matsuyama City",33.845905,132.754063,"Final Jomon","Tottaimon","Tottaimon 1",2125,"NA ; Counts: 2125",0,0,FALSE,0,0,FALSE,0,0,FALSE,0,FALSE
+21,"Obuchi","Shikoku","Matsuyama City",33.845905,132.754063,"Final Jomon","Tottaimon","Tottaimon 1",1908,"NA ; Counts: 1908",0,0,FALSE,0,0,FALSE,0,0,FALSE,0,FALSE
+22,"Osayuki","Northern Kyushu","Kitakyushu City",33.88708,130.88629,"Final Jomon","Tottaimon","Tottaimon 1",NA,"NA ; Counts: no data",0,NA,FALSE,0,NA,FALSE,0,NA,FALSE,0,FALSE
+23,"Nabatake","Northern Kyushu","Karatsu City",33.436224,129.977365,"Initial Yayoi","Tottaimon","Tottaimon 2",600,"NA ; Counts: 600",1,0.00166666666666667,TRUE,0,0,FALSE,4,0.00666666666666667,TRUE,4,TRUE
+24,"Magarita","Northern Kyushu","Itoshima City",33.558209,130.201818,"Initial Yayoi","Tottaimon","Tottaimon 2",10,"NA ; Counts: 10",2,0.2,TRUE,0,0,FALSE,0,0,FALSE,0,FALSE
+25,"Etsuji","Northern Kyushu","Kasuya City",33.620388,130.49735,"Initial Yayoi","Tottaimon","Tottaimon 2",NA,"NA ; Counts: no data",2,NA,TRUE,0,NA,FALSE,0,NA,FALSE,0,FALSE
+26,"Hashimoto-Ichoda","Northern Kyushu","Fukuoka City",33.596383,130.410767,"Initial Yayoi","Tottaimon","Tottaimon 2",NA,"NA ; Counts: no data",21,NA,TRUE,2,NA,TRUE,5,NA,TRUE,7,TRUE
+27,"Kaminakadan","Southern Kyushu","Soo Gun, Sueyoshi Cho",31.633446,131.024278,"End of Final Jomon - Initial Yayoi","Tottaimon","Tottaimon 2",NA,"NA ; Counts: no data",1,NA,TRUE,0,NA,FALSE,0,NA,FALSE,0,FALSE
+28,"Agata","Shikoku","Imabari City",34.066667,133,"End of Final Jomon - Initial Yayoi","Tottaimon","Tottaimon 2",232,"NA ; Counts: 232",1,0.00431034482758621,TRUE,0,0,FALSE,0,0,FALSE,0,FALSE
+29,"Kamigo","Shikoku","Niihama City",33.930957,133.278779,"End of Final Jomon - Initial Yayoi","Tottaimon","Tottaimon 2",NA,"NA ; Counts: no data",1,NA,TRUE,0,NA,FALSE,0,NA,FALSE,0,FALSE
+30,"Kuchisakai","Kinki","Itami City",34.784348,135.40091,"End of Final Jomon - Initial Yayoi","Tottaimon","Tottaimon 2",1,"NA ; Counts: 1",1,1,TRUE,0,0,FALSE,0,0,FALSE,0,FALSE
+31,"Itazuke","Northern Kyushu","Fukuoka City",33.596383,130.410767,"Early Yayoi","Tottaimon","Tottaimon 5",2037,"NA ; Counts: 2037",8,0.0039273441335297,TRUE,0,0,FALSE,0,0,FALSE,0,FALSE
+32,"Kurotsuchi","Southern Kyushu","Miyakonojo City",31.76594,131.0921,"End of Final Jomon - Initial Yayoi","Tottaimon","Tottaimon 2/3",1420,"NA ; Counts: 1420",5,0.00352112676056338,TRUE,0,0,FALSE,10,0.00704225352112676,TRUE,10,TRUE
+33,"Kurotsuchi","Southern Kyushu","Miyakonojo City",31.76594,131.0921,"Early Yayoi",NA,NA,NA,"NA ; Counts: NA",0,NA,FALSE,0,NA,FALSE,1,NA,TRUE,1,TRUE
+34,"Kurotsuchi","Southern Kyushu","Miyakonojo City",31.76594,131.0921,"Middle Yayoi",NA,NA,NA,"NA ; Counts: NA",0,NA,FALSE,0,NA,FALSE,1,NA,TRUE,1,TRUE
+35,"Sakamoto B","Southern Kyushu","Miyakonojo City",31.76594,131.0921,"End of Final Jomon - Initial Yayoi","Tottaimon","Tottaimon 2/3",507,"NA ; Counts: 507",1,0.0019723865877712,TRUE,0,0,FALSE,0,0,FALSE,0,FALSE
+36,"Sakamoto B","Southern Kyushu","Miyakonojo City",31.76594,131.0921,"Middle Yayoi",NA,NA,NA,"NA ; Counts: NA",1,NA,TRUE,0,NA,FALSE,0,NA,FALSE,0,FALSE
+37,"Hoshihara","Southern Kyushu","Miyakonojo City",31.76594,131.0921,"Final Jomon - Middle Yayoi",NA,NA,2084,"NA ; Counts: 2084",0,0,FALSE,0,0,FALSE,1,0.000479846449136276,TRUE,1,TRUE
+38,"Kaminakadan","Southern Kyushu","Soo Gun, Sueyoshi Cho",31.633446,131.024278,"End of Final Jomon - Initial Yayoi","Tottaimon","Tattaimon 3",NA,"NA ; Counts: no data",0,NA,FALSE,0,NA,FALSE,1,NA,TRUE,1,TRUE
+39,"Inarizako","Southern Kyushu","Shibushi City",31.477514,131.0998,"End of Final Jomon - Initial Yayoi","Tottaimon","Tottaimon 2/3",NA,"NA ; Counts: no data",0,NA,FALSE,0,NA,FALSE,1,NA,TRUE,1,TRUE
+40,"Mori III","Chugoku","Iishi Gun, Iinan Cho",34.993423,132.716775,"Early Yayoi","Tottaimon","Tottaimon 4/5",NA,"NA ; Counts: no data",1,NA,TRUE,1,NA,TRUE,NA,NA,TRUE,NA,TRUE
+41,"Santatani I","Chugoku","Izumo City",35.359779,132.754273,"End of Final Jomon - Initial Yayoi","Tottaimon","Tottaimon 3",NA,"NA ; Counts: no data",0,NA,FALSE,1,NA,TRUE,0,NA,FALSE,1,TRUE
+42,"Nishikawatsu","Chugoku","Matsue City",35.448574,133.135838,"End of Final Jomon - Initial Yayoi","Tottaimon","Tottaimon 3",NA,"NA ; Counts: no data",0,NA,FALSE,0,NA,FALSE,3,NA,TRUE,3,TRUE
+43,"Ishidai","Chugoku","Matsue City",35.448574,133.135838,"Early Yayoi","Tottaimon","Tottaimon 4/5",NA,"NA ; Counts: no data",1,NA,TRUE,0,NA,FALSE,0,NA,FALSE,0,FALSE
+44,"Kitakobuujimoto","Chugoku","Matsue City",35.448574,133.135838,"Early Yayoi","Tottaimon","Tottaimon 5",NA,"NA ; Counts: no data",1,NA,TRUE,0,NA,FALSE,0,NA,FALSE,0,FALSE
+45,"Aoki","Chugoku","Yonago City",35.426892,133.329237,"End of Final Jomon - Initial Yayoi","Tottaimon","Tottaimon 3",NA,"NA ; Counts: no data",0,NA,FALSE,0,NA,FALSE,1,NA,TRUE,1,TRUE
+46,"Suwaminamiyamazaki","Chugoku","Yonago City",35.426892,133.329237,"Early Yayoi","Tottaimon","Tottaimon 5",NA,"NA ; Counts: no data",2,NA,TRUE,0,NA,FALSE,0,NA,FALSE,0,FALSE
+47,"Motodakayuminoki","Chugoku","Tottori City",35.520359,134.223148,"Early Yayoi","Tottaimon","Tottaimon 5",NA,"NA ; Counts: no data",20,NA,TRUE,26,NA,TRUE,23,NA,TRUE,49,TRUE
+48,"Chizumakurada","Chugoku","Yazu Gun, Chizu Cho",35.260375,134.227314,"Early Yayoi","Tottaimon","Tottaimon 5",15,"NA ; Counts: 15",2,0.133333333333333,TRUE,5,0.333333333333333,TRUE,3,0.2,TRUE,8,TRUE
+49,"Minamimizote","Chugoku","Soja City",34.675516,133.701067,"Final Jomon - Early Yayoi","Tottaimon",NA,NA,"NA ; Counts: no data",2,NA,TRUE,0,NA,FALSE,0,NA,FALSE,0,FALSE
+50,"Jotonakashima","Chugoku","Kurashiki City",34.563283,133.679804,"Final Jomon - Early Yayoi","Tottaimon",NA,NA,"NA ; Counts: no data",1,NA,TRUE,0,NA,FALSE,0,NA,FALSE,0,FALSE
+51,"Hyakkengawasawada","Chugoku","Okayama City",34.659161,133.929598,"Early Yayoi","Tottaimon","Tottaimon 4/5",NA,"NA ; Counts: no data",2,NA,TRUE,0,NA,FALSE,0,NA,FALSE,0,FALSE
+52,"Satomae","Chugoku","Okayama City",34.659161,133.929598,"Early Yayoi","Tottaimon","Tottaimon 4/5",NA,"NA ; Counts: no data",1,NA,TRUE,0,NA,FALSE,0,NA,FALSE,0,FALSE
+53,"Tsushimaokadai","Chugoku","Okayama City",34.659161,133.929598,"Early Yayoi","Tottaimon","Tottaimon 4/5",NA,"NA ; Counts: no data",1,NA,TRUE,0,NA,FALSE,0,NA,FALSE,0,FALSE
+54,"Agata","Shikoku","Imabari City",34.066667,133,"Initial Yayoi - Early Yayoi","Tottaimon","Tottaimon 3/4",588,"NA ; Counts: 588",0,0,FALSE,0,0,FALSE,1,0.00170068027210884,TRUE,1,TRUE
+55,"Hayashibojiro","Shikoku","Takamatsu City",34.34053,134.113145,"Initial Yayoi - Early Yayoi","Tottaimon","Tottaimon 3/4",NA,"NA ; Counts: nodata",0,NA,FALSE,0,NA,FALSE,1,NA,TRUE,1,TRUE
+56,"Kanoura B","Shikoku","Imabari City",34.066667,133,"Initial Yayoi - Early Yayoi","Tottaimon","Tottaimon 3/4",NA,"NA ; Counts: nodata",0,NA,FALSE,0,NA,FALSE,1,NA,TRUE,1,TRUE
+57,"Higashinakasuji","Shikoku","Takamatsu City",34.34053,134.113145,"Initial Yayoi - Early Yayoi","Tottaimon","Tottaimon 3/4",NA,"NA ; Counts: nodata",1,NA,TRUE,0,NA,FALSE,0,NA,FALSE,0,FALSE
+58,"Miyanomoto","Shikoku","Anan City",33.905981,134.683892,"Early Yayoi","Tottaimon","Tottaimon 5",NA,"NA ; Counts: no data",1,NA,TRUE,0,NA,FALSE,0,NA,FALSE,0,FALSE
+59,"Myodo","Shikoku","Tokushima City",34.04062,134.544596,"Early Yayoi","Tottaimon","Tottaimon 5",NA,"NA ; Counts: no data",3,NA,TRUE,0,NA,FALSE,2,NA,TRUE,2,TRUE
+60,"Mitani","Shikoku","Tokushima City",34.04062,134.544596,"Early Yayoi","Tottaimon","Tottaimon 5",NA,"NA ; Counts: no data",3,NA,TRUE,16,NA,TRUE,10,NA,TRUE,26,TRUE
+61,"Sho-kuramoto","Shikoku","Tokushima City",34.04062,134.544596,"Early Yayoi","Tottaimon","Tottaimon 5",NA,"NA ; Counts: no data",2,NA,TRUE,0,NA,FALSE,1,NA,TRUE,1,TRUE
+62,"Itoku","Shikoku","Tosa City",33.494914,133.438793,"Initial Yayoi - Early Yayoi","Tottaimon",NA,1889,"NA ; Counts: 1889",1,0.000529380624669137,TRUE,0,0,FALSE,0,0,FALSE,0,FALSE
+63,"Funabashi","Kinki","Kashihara City",34.56917,135.627047,"Initial Yayoi - Early Yayoi","Tottaimon","Tottaimon 3/4",1586,"NA ; Counts: 1586",6,0.00378310214375788,TRUE,0,0,FALSE,1,0.000630517023959647,TRUE,1,TRUE
+64,"Kyodai-konai","Kinki","Kyoto City",35.010362,135.768735,"Initial Yayoi - Early Yayoi","Tottaimon","Tottaimon 3/5",1872,"NA ; Counts: 1872",1,0.000534188034188034,TRUE,5,0.00267094017094017,TRUE,4,0.00213675213675214,TRUE,9,TRUE
+65,"Kuchisakai","Kinki","Itami City",34.784348,135.40091,"Early Yayoi","Tottaimon","Tottaimon 5",770,"NA ; Counts: 770",0,0,FALSE,1,0.0012987012987013,TRUE,2,0.0025974025974026,TRUE,3,TRUE
+66,"Kamide A","Kinki","Gamo Gun, Azuchi Cho",35.124919,136.10199,"Early Yayoi","Tottaimon","Tottaimon 5",175,"NA ; Counts: 175",1,0.00571428571428571,TRUE,7,0.04,TRUE,3,0.0171428571428571,TRUE,10,TRUE
+67,"Mizuhai-kitoragawa","Kinki","Higashiosaka City",34.662778,135.572867,"Early Yayoi","Tottaimon","Tottaimon 4/5",NA,"NA ; Counts: no data",0,NA,FALSE,9,NA,TRUE,0,NA,FALSE,9,TRUE
+68,"Onishi","Tokai","Toyohashi City",34.69054,137.349434,"End of Final Jomon - Initial Yayoi","Tottaimon","Tottaimon 3",902,"NA ; Counts: 902",0,0,FALSE,1,0.00110864745011086,TRUE,0,0,FALSE,1,TRUE
+69,"Inariyama","Tokai","Toyokawa City",34.838323,137.339823,"Final Jomon - Early Yayoi","Tottaimon",NA,1742,"NA ; Counts: 1742",0,0,FALSE,0,0,FALSE,1,0.000574052812858783,TRUE,1,TRUE
+70,"Ogasato","Tokai","Toyohashi City",34.69054,137.349434,"Final Jomon - Early Yayoi","Tottaimon",NA,740,"NA ; Counts: 740",0,0,FALSE,1,0.00135135135135135,TRUE,0,0,FALSE,1,TRUE
+71,"Gokanmori","Tokai","Toyohashi City",34.69054,137.349434,"Final Jomon - Early Yayoi","Tottaimon",NA,3655,"Total number of pottery observed ; Counts: 3655",0,0,FALSE,5,0.00136798905608755,TRUE,0,0,FALSE,5,TRUE
+72,"Asodaohashi","Tokai","Toyokawa City",34.838323,137.339823,"Final Jomon - Early Yayoi","Tottaimon",NA,234,"Total number of pottery observed ; Counts: 234",0,0,FALSE,1,0.00427350427350427,TRUE,3,0.0128205128205128,TRUE,4,TRUE
+73,"Saragun-jori","Kinki","Shijonawate City",34.742296,135.631815,"Early Yayoi","Tottaimon","Tottaimon 5",565,"NA ; Counts: 565",0,0,FALSE,0,0,FALSE,9,0.015929203539823,TRUE,9,TRUE
+74,"Saragun-jori","Kinki","Shijonawate City",34.742296,135.631815,"Early Yayoi","Ongagawa",NA,NA,"NA ; Counts: NA",15,NA,TRUE,0,NA,FALSE,1,NA,TRUE,1,TRUE
+75,"Tamura","Shikoku","Mangoki City",33.573561,133.647814,"Early Yayoi","Ongagawa",NA,864,"NA ; Counts: 864",0,0,FALSE,0,0,FALSE,0,0,FALSE,0,FALSE
+76,"Tatsukawagojo","Shikoku","Zentsuji City",34.219389,133.797465,"Early Yayoi","Ongagawa",NA,25,"NA ; Counts: 25",0,0,FALSE,0,0,FALSE,0,0,FALSE,0,FALSE
+77,"Mitani","Shikoku","Tokushima City",34.04062,134.544596,"Early Yayoi","Ongagawa",NA,35,"Potential pottery with seed impressions ; Counts: 35",1,0.0285714285714286,TRUE,0,0,FALSE,1,0.0285714285714286,TRUE,1,TRUE
+78,"Sho-Kuramoto","Shikoku","Tokushima City",34.04062,134.544596,"Early Yayoi","Ongagawa",NA,NA,"NA ; Counts: do data",NA,NA,TRUE,NA,NA,TRUE,NA,NA,TRUE,NA,TRUE
+79,"Ishidai","Chugoku","Matsue City",35.448574,133.135838,"Early Yayoi","Ongagawa",NA,NA,"NA ; Counts: do data",1,NA,TRUE,0,NA,FALSE,0,NA,FALSE,0,FALSE
+80,"Saragun-jori","Kinki","Shijonawate City",34.742296,135.631815,"Early Yayoi","Ongagawa",NA,NA,"same to no.74 ; Counts: NA",15,NA,TRUE,0,NA,FALSE,1,NA,TRUE,1,TRUE
+81,"Uriwari","Kinki","Osaka City",34.602067,135.544885,"Early Yayoi","Ongagawa",NA,4038,"NA ; Counts: 4038",16,0.00396235760277365,TRUE,0,0,FALSE,0,0,FALSE,0,FALSE
+82,"Nishishiga","Tokai","Nagoya City",35.168132,136.881663,"Early Yayoi","Ongagawa",NA,20819,"Total number of pottery observed ; Counts: 20819",15,0.000720495701042317,TRUE,1,4.80330467361545e-05,TRUE,0,0,FALSE,1,TRUE
+83,"Niijimatawara","Tokai","Tokyo Metropolis, Niijima island",34.3702797,139.2694835,"Early Yayoi","Ongagawa",NA,11676,"NA ; Counts: 11676",0,0,FALSE,0,0,FALSE,1,8.56457690990065e-05,TRUE,1,TRUE
+84,"Tokuzo","Kinki","Hidaka Gun, Minabe Cho",33.785338,135.333474,"Early Yayoi","Ongagawa",NA,NA,"NA ; Counts: no　data",3,NA,TRUE,0,NA,FALSE,0,NA,FALSE,0,FALSE
+85,"Tokuzo","Kinki","Hidaka Gun, Minabe Cho",33.785338,135.333474,"Early Yayoi","Tottaimon","Tottaimon 4/5",NA,"NA ; Counts: no　data",0,NA,FALSE,0,NA,FALSE,1,NA,TRUE,1,TRUE
+86,"Tachino","Kinki","Nishimuro, Susami Cho",33.50786,135.5855,"Early Yayoi","Tottaimon","Tottaimon 4/5",NA,"NA ; Counts: no　data",1,NA,TRUE,1,NA,TRUE,2,NA,TRUE,3,TRUE
+87,"Tachino","Kinki","Nishimuro, Susami Cho",33.50786,135.5855,"Early Yayoi","Ongagawa",NA,NA,"NA ; Counts: no　data",1,NA,TRUE,1,NA,TRUE,0,NA,FALSE,1,TRUE
+88,"Karasumazaki**","Kinki","Kusatsu City",35.012856,135.958981,"Early Yayoi","Ongagawa",NA,225,"NA ; Counts: 225",2,0.00888888888888889,TRUE,0,0,FALSE,0,0,FALSE,0,FALSE
+89,"Karasumazaki","Kinki","Kusatsu City",35.012856,135.958981,"Early Yayoi","Fusenmon","Fusenmon 3",156,"NA ; Counts: 156",0,0,FALSE,3,0.0192307692307692,TRUE,0,0,FALSE,3,TRUE
+90,"Asahi","Tokai","Nagoya City",35.168132,136.881663,"Early Yayoi","Ongagawa",NA,729,"NA ; Counts: 729",10,0.0137174211248285,TRUE,0,0,FALSE,0,0,FALSE,0,FALSE
+91,"Asahi","Tokai","Nagoya City",35.168132,136.881663,"Early Yayoi","Jokonmon",NA,NA,"NA ; Counts: NA",1,NA,TRUE,0,NA,FALSE,0,NA,FALSE,0,FALSE
+92,"Asahi","Tokai","Nagoya City",35.168132,136.881663,"Middle Yayoi",NA,NA,NA,"NA ; Counts: NA",1,NA,TRUE,0,NA,FALSE,1,NA,TRUE,1,TRUE
+93,"Metobagawa","Central Highlands","Matsumoto City",36.22805,137.969046,"Early Yayoi","Fusenmon",NA,9364,"NA ; Counts: 9364",0,0,FALSE,0,0,FALSE,0,0,FALSE,0,FALSE
+94,"Miyanodai","Tokai","Shizuoka City",34.99553,138.331487,"End of Final Jomon - Initial Yayoi","Fusenmon","Fusenmon 1",523,"NA ; Counts: 523",0,0,FALSE,0,0,FALSE,0,0,FALSE,0,FALSE
+95,"Hanareyama","Central Highlands","Azumino City",36.332527,137.890842,"Early Yayoi","Fusenmon","Fusenmon 2/3",5784,"NA ; Counts: 5784",0,0,FALSE,4,0.000691562932226833,TRUE,2,0.000345781466113416,TRUE,6,TRUE
+96,"Yazaki","Central Highlands","Iida City",35.464917,137.829765,"Early Yayoi","Fusenmon","Fusenmon 2",1320,"NA ; Counts: 1320",0,0,FALSE,2,0.00151515151515152,TRUE,41,0.0310606060606061,TRUE,43,TRUE
+97,"Ishigyo","Central Highlands","Iida City",35.464917,137.829765,"End of Final Jomon - Initial Yayoi","Fusenmon","Fusenmon 1 or Tottaimon",360,"NA ; Counts: 360",1,0.00277777777777778,TRUE,0,0,FALSE,0,0,FALSE,0,FALSE
+98,"Ishigyo","Central Highlands","Iida City",35.464917,137.829765,"Early Yayoi","Fusenmon","Fusenmon 2/4",NA,"NA ; Counts: NA",1,NA,TRUE,26,NA,TRUE,34,NA,TRUE,60,TRUE
+99,"Gongendoumae","Central Highlands","Iida City",35.464917,137.829765,"Early Yayoi","Fusenmon","Fusenmon 2/4",NA,"NA ; Counts: didn't count",0,NA,FALSE,16,NA,TRUE,9,NA,TRUE,25,TRUE
+100,"Oshuku","Central Highlands","Shimoina Gun, Takamori Cho",35.53277,137.876429,"Early Yayoi","Fusenmon","Fusenmon 2/4",182,"NA ; Counts: 182",0,0,FALSE,2,0.010989010989011,TRUE,13,0.0714285714285714,TRUE,15,TRUE
+101,"Miyamada","Central Highlands","Shimoina Gun, Takamori Cho",35.53277,137.876429,"Early Yayoi","Fusenmon","Fusenmon 2/4",42,"NA ; Counts: 42",0,0,FALSE,9,0.214285714285714,TRUE,5,0.119047619047619,TRUE,14,TRUE
+102,"Kitakata-kitanohara","Central Highlands","Iida City",35.464917,137.829765,"Early Yayoi","Fusenmon","Fusenmon 2/4",133,"NA ; Counts: 133",0,0,FALSE,19,0.142857142857143,TRUE,4,0.0300751879699248,TRUE,23,TRUE
+103,"Eriana","Central Highlands","Matsumoto City",36.22805,137.969046,"Early Yayoi","Fusenmon","Fusenmon 2/4",56,"All of numbers colored yellow are 0 ; Counts: 56",0,0,FALSE,35,0.625,TRUE,12,0.214285714285714,TRUE,47,TRUE
+104,"Eriana","Central Highlands","Matsumoto City",36.22805,137.969046,"End of Final Jomon/Initial Yayoi",NA,NA,NA,"NA ; Counts: NA",0,NA,FALSE,12,NA,TRUE,5,NA,TRUE,17,TRUE
+105,"Ishigo","Central Highlands","Matsumoto City",36.22805,137.969046,"Early Yayoi","Fusenmon","Fusenmon 3",7,"NA ; Counts: 7",0,0,FALSE,0,0,FALSE,NA,NA,TRUE,NA,TRUE
+106,"Tochigahara","Central Highlands","Omachi City",36.515991,137.85755,"Early Yayoi","Fusenmon","Fusenmon 3",1297,"NA ; Counts: 1297",0,0,FALSE,22,0.0169622205088666,TRUE,32,0.0246723207401696,TRUE,54,TRUE
+107,"Ishinotsubo","Central Highlands","Nirasaki City",35.703184,138.454826,"Early Yayoi","Fusenmon","Fusenmon 2/3",302,"NA ; Counts: 302",0,0,FALSE,4,0.0132450331125828,TRUE,0,0,FALSE,4,TRUE
+108,"Ishinotsubo","Central Highlands","Nirasaki City",35.703184,138.454826,"Early Yayoi","Fusenmon","Fusenmon 4",NA,"NA ; Counts: NA",1,NA,TRUE,0,NA,FALSE,0,NA,FALSE,0,FALSE
+109,"Nakamichi***","Central Highlands","Nirasaki City",35.703184,138.454826,"Early Yayoi","Fusenmon","Fusenmon 2/3",71,"NA ; Counts: 71",0,0,FALSE,18,0.253521126760563,TRUE,4,0.0563380281690141,TRUE,22,TRUE
+110,"Yashikidaira","Central Highlands","Hokuto City",35.862099,138.315393,"Early Yayoi","Fusenmon","Fusenmon 2",NA,"NA ; Counts: no data",0,NA,FALSE,1,NA,TRUE,5,NA,TRUE,6,TRUE
+111,"Yashikidaira","Central Highlands","Hokuto City",35.862099,138.315393,"Early Yayoi","Fusenmon","Fusenmon 2/3",NA,"NA ; Counts: no data",0,NA,FALSE,1,NA,TRUE,2,NA,TRUE,3,TRUE
+112,"Ohira","Tokai","Sunto Gun, Nagaizumi Cho",35.137823,138.903913,"Early Yayoi","Fusenmon","Fusenmon 4",38,"NA ; Counts: 38",0,0,FALSE,7,0.184210526315789,TRUE,1,0.0263157894736842,TRUE,8,TRUE
+113,"Sannokuraochiai","Central Highlands","Takasaki City",36.4166,138.8,"Early Yayoi","Fusenmon","Fusenmon 2",128,"NA ; Counts: 128",0,0,FALSE,1,0.0078125,TRUE,0,0,FALSE,1,TRUE
+114,"Sannokuraochiai","Central Highlands","Takasaki City",36.4166,138.8,"Early Yayoi","Fusenmon","Fusenmon 3",NA,"NA ; Counts: NA",0,NA,FALSE,1,NA,TRUE,5,NA,TRUE,6,TRUE
+115,"Hanawadai","Kanto","Katori Gun, Tako Cho",35.792164,140.468033,"Early Yayoi","Fusenmon","Fusenmon 2",854,"includes Final Jomon pottery other than Fusenmon pottery ; Counts: 854",0,0,FALSE,0,0,FALSE,1,0.00117096018735363,TRUE,1,TRUE
+116,"Niijimatawara","Tokai","Tokyo Metropolis, Niijima island",34.3702797,139.2694835,"End of Final Jomon - Initial Yayoi","Fusenmon","Fusenmon 1",11676,"Total number of pottery observed ; Counts: 11676",0,0,FALSE,1,8.56457690990065e-05,TRUE,0,0,FALSE,1,TRUE
+117,"Niijimatawara","Tokai","Tokyo Metropolis, Niijima island",34.3702797,139.2694835,"Early Yayoi","Fusenmon",NA,NA,"NA ; Counts: NA",0,NA,FALSE,3,NA,TRUE,0,NA,FALSE,3,TRUE
+118,"Mishaguji","Central Highlands","Chino City",35.99215,138.151453,"End of Final Jomon - Initial Yayoi","Fusenmon","Fusenmon 1",12,"Potential pottery with seed impressions ; Counts: 12",0,0,FALSE,1,0.0833333333333333,TRUE,0,0,FALSE,1,TRUE
+119,"Sanno","Tokai","Fuji City",35.160516,138.674661,"End of Final Jomon - Initial Yayoi","Fusenmon","Fusenmon 1",NA,"NA ; Counts: no data",0,NA,FALSE,0,NA,FALSE,1,NA,TRUE,1,TRUE
+120,"Fukuzawa","Central Highlands","Shiojiri City",36.111369,137.95219,"Early Yayoi","Fusenmon","Fusenmon 3/4",1232,"NA ; Counts: 1232",2,0.00162337662337662,TRUE,32,0.025974025974026,TRUE,78,0.0633116883116883,TRUE,110,TRUE
+121,"Shimosakaizawa","Central Highlands","Shiojiri City",36.111369,137.95219,"Early Yayoi","Fusenmon","Fusenmon 4",2167,"NA ; Counts: 2167",0,0,FALSE,1,0.000461467466543609,TRUE,0,0,FALSE,1,TRUE
+122,"Shimosakaizawa","Central Highlands","Shiojiri City",36.111369,137.95219,"Early Yayoi - Middle Yayoi",NA,NA,NA,"NA ; Counts: NA",0,NA,FALSE,3,NA,TRUE,0,NA,FALSE,3,TRUE
+123,"Shimosakaizawa","Central Highlands","Shiojiri City",36.111369,137.95219,"Middle Yayoi","Jokonmon",NA,NA,"NA ; Counts: NA",1,NA,TRUE,0,NA,FALSE,0,NA,FALSE,0,FALSE
+124,"Izumi A","Hokuriku","Joetsu City",37.17009,138.224701,"Early Yayoi","Fusenmon","Fusenmon 2",NA,"NA ; Counts: no data",0,NA,FALSE,0,NA,FALSE,1,NA,TRUE,1,TRUE
+125,"Izumi A","Hokuriku","Joetsu City",37.17009,138.224701,"Early Yayoi","Fusenmon","Fusenmon 3",NA,"NA ; Counts: no data",0,NA,FALSE,0,NA,FALSE,2,NA,TRUE,2,TRUE
+126,"Izumi A","Hokuriku","Joetsu City",37.17009,138.224701,"Early Yayoi","Fusenmon","Fusenmon 3/4",NA,"NA ; Counts: no data",0,NA,FALSE,12,NA,TRUE,27,NA,TRUE,39,TRUE
+127,"Shimootsukimine","Kanto","Hadano City",35.373145,139.27351,"Early Yayoi","Fusenmon",NA,1,"NA ; Counts: 1",0,0,FALSE,0,0,FALSE,1,1,TRUE,1,TRUE
+128,"Joshikimen","Kanto","Fukaya City",36.137888,139.270559,"Early Yayoi",NA,NA,1198,"NA ; Counts: 1198",0,0,FALSE,1,0.000834724540901503,TRUE,1,0.000834724540901503,TRUE,2,TRUE
+129,"Yagashira","Kanto","Ashigarakami Gun, Ohi Machi",35.315515,139.154912,"Early Yayoi",NA,NA,15,"NA ; Counts: 15",0,0,FALSE,1,0.0666666666666667,TRUE,0,0,FALSE,1,TRUE
+130,"Nakazato","Kanto","Hadano City",35.373145,139.27351,"Early Yayoi",NA,NA,14,"Fusenmon ; Counts: 14",0,0,FALSE,1,0.0714285714285714,TRUE,0,0,FALSE,1,TRUE
+131,"Kitahara","Kanto","Aiko Gun, Kiyokawa Mura",35.2935,139.1313,"Early Yayoi",NA,NA,150,"NA ; Counts: 150",0,0,FALSE,4,0.0266666666666667,TRUE,2,0.0133333333333333,TRUE,6,TRUE
+132,"Kamimura","Kanto","Aiko Gun, Kiyokawa Mura",35.2935,139.1313,"Early Yayoi",NA,NA,675,"NA ; Counts: 675",1,0.00148148148148148,TRUE,0,0,FALSE,0,0,FALSE,0,FALSE
+133,"Nyoraido A","Kanto","Kodama Gun, Misato Mura",36.20604,139.170465,"Early Yayoi",NA,NA,96,"NA ; Counts: 96",0,0,FALSE,0,0,FALSE,1,0.0104166666666667,TRUE,1,TRUE
+134,"Miyanomae","Central Highlands","Nirasaki City",35.703184,138.454826,"Early Yayoi",NA,NA,116,"NA ; Counts: 116",2,0.0172413793103448,TRUE,0,0,FALSE,0,0,FALSE,0,FALSE
+135,"Kaminakamaru","Central Highlands","Fujiyoshida City",35.481018,138.777878,"Early Yayoi",NA,NA,NA,"NA ; Counts: no data",1,NA,TRUE,1,NA,TRUE,1,NA,TRUE,2,TRUE
+136,"Takizawa","Central Highlands","Minamitsuru Gun, Fujikawaguchiko Cho",35.497314,138.755199,"Early Yayoi",NA,"Yanagitsubo",2,"NA ; Counts: 2",2,1,TRUE,0,0,FALSE,0,0,FALSE,0,FALSE
+137,"Uwatakeno","Southern Tohoku","Mogami Gun, Okura Mura",38.6825032,140.2218834,"Early Yayoi",NA,NA,NA,"NA ; Counts: （38,953.7g）",0,NA,FALSE,0,NA,FALSE,0,NA,FALSE,0,FALSE
+138,"Agata","Shikoku","Imabari City",34.268214,133.027003,"Early Yayoi - Middle Yayoi",NA,NA,820,"NA ; Counts: 820",13,0.0158536585365854,TRUE,6,0.00731707317073171,TRUE,1,0.00121951219512195,TRUE,7,TRUE
+139,"Sho-kuramoto","Shikoku","Tokushima City",34.04062,134.544596,"Early Yayoi - Middle Yayoi",NA,NA,NA,"NA ; Counts: no data",0,NA,FALSE,4,NA,TRUE,1,NA,TRUE,5,TRUE
+140,"Niijimatawara","Tokai","Tokyo Metropolis, Niijima island",34.3702797,139.2694835,"Early Yayoi - Middle Yayoi","Jokonmon",NA,11676,"Total number of pottery observed ; Counts: 11676",2,0.000171291538198013,TRUE,5,0.000428228845495033,TRUE,1,8.56457690990065e-05,TRUE,6,TRUE
+141,"Onishi","Tokai","Toyohashi City",34.69054,137.349434,"Early Yayoi","Jokonmon","Kashio",902,"NA ; Counts: 902",1,0.00110864745011086,TRUE,3,0.00332594235033259,TRUE,0,0,FALSE,3,TRUE
+142,"Gokanmori","Tokai","Toyohashi City",34.69054,137.349434,"Early Yayoi - Middle Yayoi","Jokonmon",NA,3655,"Total number of pottery observed ; Counts: 3655",1,0.00027359781121751,TRUE,0,0,FALSE,0,0,FALSE,0,FALSE
+143,"Asodaohashi","Tokai","Toyokawa City",34.838323,137.339823,"Early Yayoi - Middle Yayoi","Jokonmon",NA,234,"Total number of pottery observed ; Counts: 234",0,0,FALSE,1,0.00427350427350427,TRUE,2,0.00854700854700855,TRUE,3,TRUE
+144,"Tonohata","Tokai","Hamamatsu City",34.797947,137.583922,"Early Yayoi - Middle Yayoi","Jokonmon",NA,362,"NA ; Counts: 362",0,0,FALSE,2,0.00552486187845304,TRUE,2,0.00552486187845304,TRUE,4,TRUE
+145,"Shibusawa","Tokai","Fujinomiya City",35.218407,138.615691,"Early Yayoi - Middle Yayoi","Jokonmon",NA,426,"NA ; Counts: 426",3,0.00704225352112676,TRUE,11,0.0258215962441315,TRUE,11,0.0258215962441315,TRUE,22,TRUE
+146,"Nishishiga","Tokai","Nagoya City",35.168132,136.881663,"Early Yayoi","Jokonmon",NA,20819,"Total number of pottery observed ; Counts: 20819",6,0.000288198280416927,TRUE,0,0,FALSE,0,0,FALSE,0,FALSE
+147,"Hirasawadomei","Kanto","Hadano City",35.373145,139.27351,"Early Yayoi","Jokonmon",NA,100,"NA ; Counts: 100",0,0,FALSE,NA,NA,TRUE,NA,NA,TRUE,NA,TRUE
+148,"Hirasawadomei","Kanto","Hadano City",35.373145,139.27351,"Early Yayoi","Jokonmon",NA,2,"NA ; Counts: 2",1,0.5,TRUE,0,0,FALSE,0,0,FALSE,0,FALSE
+149,"Nakayashiki","Kanto","Ashigarakami Gun, Oi Machi",35.315515,139.154912,"Early Yayoi - Middle Yayoi","Jokonmon",NA,NA,"NA ; Counts: no data",0,NA,FALSE,21,NA,TRUE,15,NA,TRUE,36,TRUE
+150,"Oki II","Central Highlands","Fujioka City",36.245789,139.064132,"Early Yayoi - Middle Yayoi","Jokonmon","Oki II",2580,"NA ; Counts: 2580",1,0.000387596899224806,TRUE,13,0.00503875968992248,TRUE,8,0.00310077519379845,TRUE,21,TRUE
+151,"Uwahitomi","Central Highlands","Annaka City",36.328684,138.89695,"First half of Middle Yayoi","Jokonmon",NA,154,"NA ; Counts: 154",0,0,FALSE,2,0.012987012987013,TRUE,3,0.0194805194805195,TRUE,5,TRUE
+152,"Nakazatohara","Central Highlands","Tomioka City",36.258112,138.900904,"First half of Middle Yayoi","Jokonmon","Oki II",4,"NA ; Counts: 4",0,0,FALSE,17,4.25,TRUE,6,1.5,TRUE,23,TRUE
+153,"Nanokaichikannonmae","Central Highlands","Tomioka City",36.258112,138.900904,"First half of Middle Yayoi",NA,NA,15,"NA ; Counts: 15",0,0,FALSE,8,0.533333333333333,TRUE,10,0.666666666666667,TRUE,18,TRUE
+154,"Tengumori midden","Northern Tohoku","Misawa City",40.695283,141.390516,"Early Yayoi",NA,"Sunazawa",1,"NA ; Counts: 1",1,1,TRUE,0,0,FALSE,0,0,FALSE,0,FALSE
+155,"Sunazawa","Northern Tohoku","Hirosaki City",40.595644,140.478415,"Early Yayoi",NA,"Sunazawa",713,"NA ; Counts: 713",5,0.00701262272089762,TRUE,0,0,FALSE,0,0,FALSE,0,FALSE
+156,"Jizoden","Northern Tohoku","Akita City",39.675183,140.14888,"Early Yayoi",NA,"Parallel to Sunazawa",2,"NA ; Counts: 2",1,0.5,TRUE,0,0,FALSE,0,0,FALSE,0,FALSE
+157,"Niijimatawara","Tokai","Tokyo Metropolis, Niijima island",34.3702797,139.2694835,"Early Yayoi",NA,NA,11676,"Total number of pottery observed ; Counts: 11676",1,8.56457690990065e-05,TRUE,0,0,FALSE,0,0,FALSE,0,FALSE
+158,"Niijimatawara","Tokai","Tokyo Metropolis, Niijima island",34.3702797,139.2694835,"Early Yayoi - Middle Yayoi",NA,NA,NA,"NA ; Counts: NA",1,NA,TRUE,0,NA,FALSE,1,NA,TRUE,1,TRUE
+159,"Nishishiga","Tokai","Nagoya City",35.168132,136.881663,"Early Yayoi - Middle Yayoi",NA,NA,20819,"NA ; Counts: 20819",21,0.00100869398145924,TRUE,0,0,FALSE,0,0,FALSE,0,FALSE
+160,"Usagi II","Northern Tohoku","Oshu City",39.149182,141.149266,"Early Yayoi - Middle Yayoi",NA,NA,NA,"I could not find the data of this site. ; Counts: NA",1,NA,TRUE,0,NA,FALSE,0,NA,FALSE,0,FALSE
+161,"Daikojishinjo","Northern Tohoku","Hirakawa City",40.582458,140.572701,"Middle Yayoi",NA,NA,13140,"NA ; Counts: 13140",1,7.6103500761035e-05,TRUE,0,0,FALSE,0,0,FALSE,0,FALSE
+162,"Izawa","Northern Tohoku","Hirakawa City",40.582458,140.572701,"Middle Yayoi",NA,NA,368,"NA ; Counts: 368",1,0.00271739130434783,TRUE,0,0,FALSE,0,0,FALSE,0,FALSE
+163,"Komadomari","Northern Tohoku","Hirakawa City",40.582458,140.572701,"Middle Yayoi",NA,NA,3597,"NA ; Counts: 3597",1,0.000278009452321379,TRUE,0,0,FALSE,0,0,FALSE,0,FALSE
+164,"Kotoge","Northern Tohoku","Hachinohe City",40.524572,141.507826,"Early Yayoi",NA,NA,NA,"NA ; Counts: no data",1,NA,TRUE,0,NA,FALSE,0,NA,FALSE,0,FALSE
+165,"Hatauchi","Northern Tohoku","Hachinohe City",40.524572,141.507826,"Early Yayoi",NA,NA,NA,"NA ; Counts: no data",1,NA,TRUE,0,NA,FALSE,0,NA,FALSE,0,FALSE
+166,"Matsunagane","Northern Tohoku","Hachinohe City",40.524572,141.507826,"Middle Yayoi",NA,NA,NA,"NA ; Counts: no data",4,NA,TRUE,0,NA,FALSE,0,NA,FALSE,0,FALSE
+167,"Babano II","Northern Tohoku","Kunohe Gun, Karumai Machi",40.313514,141.513249,"Middle Yayoi",NA,NA,NA,"NA ; Counts: no data",2,NA,TRUE,0,NA,FALSE,0,NA,FALSE,0,FALSE
+168,"Nakazaikeminami","Southern Tohoku","Sendai City",38.26889,140.87194,"Middle Yayoi",NA,NA,291,"NA ; Counts: 291",0,0,FALSE,0,0,FALSE,2,0.00687285223367698,TRUE,2,TRUE
+169,"Takada B","Southern Tohoku","Sendai City",38.26889,140.87194,"Middle Yayoi",NA,NA,543,"NA ; Counts: 543",4,0.00736648250460405,TRUE,0,0,FALSE,0,0,FALSE,0,FALSE
+170,"Odaira-goseki","Southern Tohoku","Fukushima City",37.759073,140.383136,"Early Yayoi",NA,NA,389,"NA ; Counts: 389",0,0,FALSE,0,0,FALSE,1,0.0025706940874036,TRUE,1,TRUE
+171,"Emata","Southern Tohoku","Yamagata City",38.24056,140.36333,"Middle Yayoi",NA,NA,NA,"NA ; Counts: no data",1,NA,TRUE,0,NA,FALSE,0,NA,FALSE,0,FALSE
+172,"Kamiosakuura","Southern Tohoku","Nanyo City",38.055651,140.171932,"Middle Yayoi",NA,NA,10569,"NA ; Counts: 10569",1,9.46163307786924e-05,TRUE,0,0,FALSE,0,0,FALSE,0,FALSE
+173,"Yokonagane A","Northern Tohoku","Minamiakita Gun, Wakami machi",39.8821354,139.8476772,"First half of Middle Yayoi",NA,NA,3,"NA ; Counts: 3",3,1,TRUE,0,0,FALSE,0,0,FALSE,0,FALSE
+174,"Sakaikubo","Central Highlands","Matsumoto City",36.22805,137.969046,"First half of Middle Yayoi",NA,NA,547,"NA ; Counts: 547",10,0.0182815356489945,TRUE,15,0.0274223034734918,TRUE,45,0.0822669104204753,TRUE,60,TRUE
+175,"Araida B","Central Highlands","Minami-Alps City",35.636964,138.500811,"First half of Middle Yayoi",NA,NA,NA,"NA ; Counts: no data",20,NA,TRUE,0,NA,FALSE,0,NA,FALSE,0,FALSE
+176,"Nakanoyahara","Central Highlands","Annaka City",36.328684,138.89695,"First half of Middle Yayoi",NA,NA,333,"NA ; Counts: 333",3,0.00900900900900901,TRUE,25,0.0750750750750751,TRUE,12,0.036036036036036,TRUE,37,TRUE
+177,"Izuruhara","Kanto","Sano City",36.312232,139.573155,"First half of Middle Yayoi","Jokonmon",NA,3278,"NA ; Counts: 3278",10,0.00305064063453325,TRUE,3,0.000915192190359976,TRUE,5,0.00152532031726663,TRUE,8,TRUE
+178,"Iwanatenjinmae","Kanto","Sakura City",35.743302,140.177984,"First half of Middle Yayoi","Jokonmon",NA,310,"NA ; Counts: 310",3,0.00967741935483871,TRUE,5,0.0161290322580645,TRUE,1,0.0032258064516129,TRUE,6,TRUE
+179,"Yokomaguri","Kanto","Kumagaya City",36.203343,139.420226,"First half of Middle Yayoi","Jokonmon",NA,13,"NA ; Counts: 13",1,0.0769230769230769,TRUE,9,0.692307692307692,TRUE,2,0.153846153846154,TRUE,11,TRUE
+180,"Iizukakita","Kanto","Kumagaya City",36.203343,139.420226,"First half of Middle Yayoi","Jokonmon",NA,14,"NA ; Counts: 14",0,0,FALSE,3,0.214285714285714,TRUE,0,0,FALSE,3,TRUE
+181,"Fukakusa","Kinki","Kyoto City",35.010362,135.768735,"First half of Middle Yayoi",NA,NA,11153,"NA ; Counts: 11153",27,0.00242087330763023,TRUE,0,0,FALSE,1,8.96619743566753e-05,TRUE,1,TRUE
+182,"Ikegami","Kanto","Kumagaya City",36.203343,139.420226,"Middle Yayoi",NA,"Ikegami",987,"NA ; Counts: 987",22,0.022289766970618,TRUE,1,0.00101317122593718,TRUE,4,0.00405268490374873,TRUE,5,TRUE
+183,"Koshikida","Kanto","Kumagaya City",36.203343,139.420226,"Middle Yayoi",NA,"Ikegami",824,"NA ; Counts: 824",15,0.0182038834951456,TRUE,1,0.00121359223300971,TRUE,3,0.00364077669902913,TRUE,4,TRUE
+184,"Komiya","Kanto","Kumagaya City",36.203343,139.420226,"Middle Yayoi",NA,"Ikegami",414,"NA ; Counts: 414",4,0.00966183574879227,TRUE,2,0.00483091787439614,TRUE,0,0,FALSE,2,TRUE
+185,"Ajimagotanda","Central Highlands","Shimoina Gun, Takagi Mura",35.521578,137.876661,"Middle Yayoi",NA,"Ajima",1578,"NA ; Counts: 1578",6,0.00380228136882129,TRUE,1,0.000633713561470215,TRUE,4,0.00253485424588086,TRUE,5,TRUE
+186,"Mayumida","Central Highlands","Nagano City",36.634907,138.206805,"Middle Yayoi",NA,"Kuribayashi",278,"NA ; Counts: 278",3,0.0107913669064748,TRUE,2,0.00719424460431655,TRUE,2,0.00719424460431655,TRUE,4,TRUE
+187,"Haruyama B","Central Highlands","Nagano City",36.634907,138.206805,"Middle Yayoi",NA,"Kuribayashi",241,"NA ; Counts: 241",8,0.033195020746888,TRUE,1,0.004149377593361,TRUE,2,0.00829875518672199,TRUE,3,TRUE
+188,"Matsubara-kosokido","Central Highlands","Nagano City",36.634907,138.206805,"Middle Yayoi",NA,"Kuribayashi",258,"NA ; Counts: 258",25,0.0968992248062016,TRUE,2,0.00775193798449612,TRUE,11,0.0426356589147287,TRUE,13,TRUE
+189,"Enokida","Central Highlands","Nagano City",36.634907,138.206805,"Middle Yayoi",NA,"Kuribayashi",49,"NA ; Counts: 49",4,0.0816326530612245,TRUE,0,0,FALSE,4,0.0816326530612245,TRUE,4,TRUE
+190,"Ohana","Central Highlands","Nagano City",36.634907,138.206805,"Middle Yayoi",NA,"Kuribayashi",143,"NA ; Counts: 143",3,0.020979020979021,TRUE,2,0.013986013986014,TRUE,2,0.013986013986014,TRUE,4,TRUE
+191,"Neneishibamiya","Central Highlands","Saku City",36.194409,138.480283,"Middle Yayoi",NA,"Kuribayashi",712,"NA ; Counts: 712",20,0.0280898876404494,TRUE,5,0.00702247191011236,TRUE,12,0.0168539325842697,TRUE,17,TRUE
+192,"Gorita","Central Highlands","Saku City",36.194409,138.480283,"Middle Yayoi",NA,"Kuribayashi",753,"NA ; Counts: 753",9,0.0119521912350598,TRUE,0,0,FALSE,1,0.00132802124833997,TRUE,1,TRUE
+193,"Nishiipponyanagi","Central Highlands","Saku City",36.194409,138.480283,"Middle Yayoi",NA,"Kuribayashi",755,"NA ; Counts: 755",17,0.0225165562913907,TRUE,2,0.00264900662251656,TRUE,4,0.00529801324503311,TRUE,6,TRUE
+194,"Enshobo","Central Highlands","Saku City",36.194409,138.480283,"Middle Yayoi",NA,"Kuribayashi",16,"NA ; Counts: 16",1,0.0625,TRUE,2,0.125,TRUE,5,0.3125,TRUE,7,TRUE
+195,"Moridaira","Central Highlands","Saku City",36.194409,138.480283,"Middle Yayoi",NA,"Kuribayashi",259,"NA ; Counts: 259",14,0.0540540540540541,TRUE,3,0.0115830115830116,TRUE,4,0.0154440154440154,TRUE,7,TRUE
+196,"Kamitakadashagujihara","Central Highlands","Tomioka City",36.258112,138.900904,"Middle Yayoi",NA,"Kuribayashi",590,"NA ; Counts: 590",10,0.0169491525423729,TRUE,0,0,FALSE,1,0.00169491525423729,TRUE,1,TRUE
+197,"Kurokawakozuka","Central Highlands","Tomioka City",36.258112,138.900904,"Middle Yayoi",NA,"Kuribayashi",76,"NA ; Counts: 76",3,0.0394736842105263,TRUE,0,0,FALSE,1,0.0131578947368421,TRUE,1,TRUE
+198,"Nikenzaikeharadagashira","Central Highlands","Annaka City",36.328684,138.89695,"Middle Yayoi",NA,"Kuribayashi",704,"NA ; Counts: 704",1,0.00142045454545455,TRUE,1,0.00142045454545455,TRUE,7,0.00994318181818182,TRUE,8,TRUE
+199,"Takizawa","Central Highlands","Minamitsuru Gun, Fujikawaguchiko Cho",35.497314,138.755199,"Middle Yayoi",NA,NA,NA,"NA ; Counts: no data",0,NA,FALSE,6,NA,TRUE,2,NA,TRUE,8,TRUE
+200,"Yokaichijikata","Hokuriku","Komatsu City",36.412341,136.451671,"Middle Yayoi","Komatsu","Yokaichijikata 4-5",268,"NA ; Counts: 268",14,0.0522388059701493,TRUE,0,0,FALSE,0,0,FALSE,0,FALSE
+201,"Uto","Tokai","Shizuoka City",34.995536,138.331487,"Middle Yayoi",NA,"Uto",78,"NA ; Counts: 78",6,0.0769230769230769,TRUE,0,0,FALSE,0,0,FALSE,0,FALSE
+202,"Harazoe","Tokai","Shizuoka City",34.995536,138.331487,"Middle Yayoi",NA,"Uto",800,"NA ; Counts: 800",4,0.005,TRUE,0,0,FALSE,0,0,FALSE,0,FALSE
+203,"Otsuka","Kanto","Yokohama City",35.436453,139.653068,"Middle Yayoi",NA,"Miyanodai",3000,"NA ; Counts: 3000",14,0.00466666666666667,TRUE,1,0.000333333333333333,TRUE,1,0.000333333333333333,TRUE,2,TRUE
+204,"Ikego","Kanto","Zushi City",35.297324,139.575339,"Middle Yayoi",NA,"Miyanodai",1010,"NA ; Counts: 1010",28,0.0277227722772277,TRUE,5,0.00495049504950495,TRUE,2,0.00198019801980198,TRUE,7,TRUE
+205,"Asukayama","Kanto","Tokyo Metropolis, Kita ku",35.774614,139.707831,"Middle Yayoi",NA,"Miyanodai",NA,"NA ; Counts: (43757.5g)",11,NA,TRUE,1,NA,TRUE,0,NA,FALSE,1,TRUE
+206,"Jonokoshi","Kanto","Chiba City",35.610352,140.122382,"Middle Yayoi",NA,"Miyanodai",725,"NA ; Counts: 725",2,0.00275862068965517,TRUE,0,0,FALSE,0,0,FALSE,0,FALSE
+207,"Sunadadai","Kanto","Hadano City",35.373145,139.27351,"Middle Yayoi",NA,NA,613,"NA ; Counts: 613",7,0.0114192495921697,TRUE,0,0,FALSE,0,0,FALSE,0,FALSE
+208,"Sekido","Kanto","Narita City",35.777621,140.311704,"Middle Yayoi",NA,NA,NA,"NA ; Counts: no data",7,NA,TRUE,0,NA,FALSE,0,NA,FALSE,0,FALSE
+209,"Sekido","Kanto","Narita City",35.777621,140.311704,"Middle Yayoi",NA,"Miyanodai",NA,"NA ; Counts: NA",1,NA,TRUE,0,NA,FALSE,0,NA,FALSE,0,FALSE
+210,"Kuriya","Kanto","Yachiyo City",35.721134,140.095451,"Middle Yayoi",NA,"Miyanodai",NA,"NA ; Counts: no data",2,NA,TRUE,0,NA,FALSE,0,NA,FALSE,0,FALSE
+211,"Kawaharaguchibochu","Kanto","Ebina City",35.446353,139.37953,"Middle Yayoi",NA,NA,400,"NA ; Counts: 400",1,0.0025,TRUE,2,0.005,TRUE,0,0,FALSE,2,TRUE
+212,"Inakadate","Northern Tohoku","Minamitsugaru Gun, Inakadate Mura",40.628656,140.557436,"Middle Yayoi",NA,"Inakadate",NA,"Site name is not correct. Tareyanagi site ; Counts: no data",5,NA,TRUE,0,NA,FALSE,0,NA,FALSE,0,FALSE
+213,"Yubunezawa","Northern Tohoku","Takizawa City",39.753045,141.104654,"Middle Yayoi",NA,"Yubunazawa",NA,"I could not find the reference. ; Counts: NA",1,NA,TRUE,1,NA,TRUE,1,NA,TRUE,2,TRUE
+214,"Ienoue","Northern Tohoku","Yamamoto Gun, Mitane Cho",40.000241,140.08145,"Middle Yayoi",NA,NA,1,"NA ; Counts: 1",2,2,TRUE,0,0,FALSE,0,0,FALSE,0,FALSE
+215,"Sanjukari","Northern Tohoku","Oga City",39.9065,139.932924,"Middle Yayoi",NA,NA,1,"NA ; Counts: 1",4,4,TRUE,0,0,FALSE,0,0,FALSE,0,FALSE
+216,"Kitajima","Kanto","Kumagaya City",36.203343,139.420226,"Second half of Middle Yayoi",NA,"Kitajima",1500,"NA ; Counts: 1500",10,0.00666666666666667,TRUE,0,0,FALSE,20,0.0133333333333333,TRUE,20,TRUE
+217,"Maenakanishi","Kanto","Kumagaya City",36.203343,139.420226,"Second half of Middle Yayoi",NA,"Kitajima",3100,"NA ; Counts: 3100",17,0.00548387096774194,TRUE,1,0.00032258064516129,TRUE,22,0.00709677419354839,TRUE,23,TRUE
+218,"Mukaiyama","Kanto","Asaka City",35.824548,139.610169,"Middle Yayoi",NA,"Miyanodai",300,"NA ; Counts: 300",4,0.0133333333333333,TRUE,0,0,FALSE,0,0,FALSE,0,FALSE
+219,"K-5","Kanto","Ome City",35.785351,139.231336,"Second half of Middle Yayoi",NA,NA,91,"NA ; Counts: 91",1,0.010989010989011,TRUE,0,0,FALSE,2,0.021978021978022,TRUE,2,TRUE
+220,"Baba","Kanto","Ome City",35.785351,139.231336,"Second half of Middle Yayoi",NA,NA,5,"NA ; Counts: 5",1,0.2,TRUE,0,0,FALSE,1,0.2,TRUE,1,TRUE
+221,"Minamioyama","Southern Tohoku","Aizuwakamatsu City",37.489983,139.927749,"Middle Yayoi",NA,"Minamioyama 2-Kawaharamachikuchi",1308,"NA ; Counts: 1308",2,0.00152905198776758,TRUE,0,0,FALSE,1,0.000764525993883792,TRUE,1,TRUE
+222,"Katsuguchimaehata","Southern Tohoku","Fukushima City",38.295716,140.856389,"Second half of Middle Yayoi",NA,"Kawaharamachikuchi",749,"NA ; Counts: 749",9,0.0120160213618158,TRUE,0,0,FALSE,0,0,FALSE,0,FALSE
+223,"Takinoiri","Southern Tohoku","Minamiaizu Gun, Shimogo machi",37.2707679,139.8478782,"Second half of Middle Yayoi",NA,"Kawaharamachikuchi",NA,"I could not find the reference. ; Counts: NA",1,NA,TRUE,1,NA,TRUE,0,NA,FALSE,1,TRUE
+224,"Kawauchi","Southern Tohoku","Rikuzentakada City",39.027753,141.6255,"Middle Yayoi",NA,"Masugatakakoi",NA,"NA ; Counts: no data",1,NA,TRUE,0,NA,FALSE,0,NA,FALSE,0,FALSE
+225,"Ehira","Southern Tohoku","Fukushima City",37.759073,140.383136,"Middle Yayoi",NA,NA,NA,"NA ; Counts: no data",3,NA,TRUE,0,NA,FALSE,0,NA,FALSE,0,FALSE
