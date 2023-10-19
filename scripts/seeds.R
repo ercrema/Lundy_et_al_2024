@@ -1,11 +1,11 @@
 # Load Libraries ----
 library(here)
-library(latex2exp)
-library(ggplot2)
+# library(latex2exp)
+# library(ggplot2)
 library(brms)
-library(tidybayes)
+# library(tidybayes)
 library(coda)
-library(scales)
+# library(scales)
 
 # Custom functions ----
 logistic <- function(x)
@@ -223,6 +223,37 @@ pred.rice  <- rbind.data.frame(pred.rice,data.frame(value = exp(post.rice$b_Inte
 					  region = 'Tokai'))
 
 # Make Plot
-plot(NULL,xlim=c(0,0.8),ylim=c(-0.4,8.1),xlab='Rice Impressions/Sherds',ylab='',axes=FALSE)
+plot(NULL,xlim=c(0,1),ylim=c(-0.4,8.1),xlab='Rice Impressions/Sherds',ylab='',axes=FALSE)
+post.bar.h(subset(pred.millet,region=='Chubu Highlands'&period=='Late Jomon to Initial Yayoi')$value,i=7,h=1,col=col2)
+text(x=0.7,y=7,label=paste0(sum(subset(seeds.freq,Region=='Central Highlands'&Period2=='LJ/IY')$N),'(',sum(seeds.freq$Region=='Central Highlands'&seeds.freq$Period2=='LJ/IY'),')'))
+post.bar.h(subset(pred.millet,region=='Tokai'&period=='Late Jomon to Initial Yayoi')$value,i=6,h=1,col=col1)
+text(x=0.06,y=6,label=paste0(sum(subset(seeds.freq,Region=='Tokai'&Period2=='LJ/IY')$N),'(',sum(seeds.freq$Region=='Tokai'&seeds.freq$Period2=='LJ/IY'),')'))
+text(x=-0.1,y=6.5,label='Late/Final Jomon',srt=90)
+
+post.bar.h(subset(pred.millet,region=='Chubu Highlands'&period=='Early Yayoi')$value,i=4,h=1,col=col2)
+text(x=0.12,y=4,label=paste0(sum(subset(seeds.freq,Region=='Central Highlands'&Period2=='EY')$N),'(',sum(seeds.freq$Region=='Central Highlands'&seeds.freq$Period2=='EY'),')'))
+post.bar.h(subset(pred.millet,region=='Tokai'&period=='Early Yayoi')$value,i=3,h=1,col=col1)
+text(x=1.1,y=3,label=paste0(sum(subset(seeds.freq,Region=='Tokai'&Period2=='EY')$N),'(',sum(seeds.freq$Region=='Tokai'&seeds.freq$Period2=='EY'),')'))
+text(x=-0.1,y=3.5,label='Early Yayoi',srt=90)
+
+post.bar.h(subset(pred.millet,region=='Tokai'&period=='Middle Yayoi')$value,i=1,h=1,col=col1)
+text(x=1.1,y=1,label=paste0(sum(subset(seeds.freq,Region=='Central Highlands'&Period2=='MY')$N),'(',sum(seeds.freq$Region=='Central Highlands'&seeds.freq$Period2=='MY'),')'))
+post.bar.h(subset(pred.millet,region=='Chubu Highlands'&period=='Middle Yayoi')$value,i=0,h=1,col=col2)
+text(x=0.8,y=0,label=paste0(sum(subset(seeds.freq,Region=='Tokai'&Period2=='MY')$N),'(',sum(seeds.freq$Region=='Tokai'&seeds.freq$Period2=='MY'),')'))
+text(x=-0.1,y=0.5,label='Middle Yayoi',srt=90)
+
+legend(x=0.9,y=6,legend=c('95% HPD','80% HPD','50% HPD'),fill=c(adjustcolor(col1,alpha.f = 0.9),adjustcolor(col1,alpha.f = 0.6),adjustcolor(col1,alpha.f = 0.3)),title='Tokai',bty='n',bg='white',cex=0.9)
+legend(x=0.9,y=8.5,legend=c('95% HPD','80% HPD','50% HPD'),fill=c(adjustcolor(col2,alpha.f = 0.9),adjustcolor(col2,alpha.f = 0.6),adjustcolor(col2,alpha.f = 0.3)),title='Chubu Highlands',bty='n',bg='white',cex=0.9)
+axis(1)
+
+
+aggregate(value ~ period+region,data=pred.rice,FUN=function(x){round(median(x),4)})
+aggregate(value ~ period+region,data=pred.rice,FUN=function(x){round(HPDinterval(as.mcmc(x)),4)})
+
+aggregate(value ~ period+region,data=pred.millet,FUN=function(x){round(median(x),4)})
+aggregate(value ~ period+region,data=pred.millet,FUN=function(x){round(HPDinterval(as.mcmc(x)),4)})
+
+aggregate(N ~ Period2 + Region, data=seeds.freq,FUN=sum) 
+aggregate(N ~ Period2 + Region, data=seeds.freq,FUN=length) 
 
 
