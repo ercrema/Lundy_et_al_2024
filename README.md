@@ -6,17 +6,17 @@ The _data_ directory contains the organic residue analysis summary data, human i
 # File Structure
 
 ### data
-* ` Central Highlands and Tokai ceramic data and organic residue analysis summary.csv` ... Spreadsheet containing ceramic information and organic residue analysis summary data 
-* ` Central Highlands and Tokai human isotope data.csv…` Spreadsheet containing previously publish human isotope data from Tokai and Central Highlands ceramic information and organic residue analysis summary data
+* ` ORAresults.csv `... Spreadsheet containing ceramic information and organic residue analysis summary data 
+* ` Humanisotope.csv`... Spreadsheet containing previously publish human isotope data from Tokai and Central Highlands ceramic information and organic residue analysis summary data
 * `prepare_data.R` ... R scripts for pre-processing `R14CDB.csv` and `prefecture_region_match.csv`. Generates the R image file `c14rice.RData`.
 * `c14rice.RData` ... R image file containing R objects required for analyses. Generated using `prepare_data.R`, `R14CDB.csv`, and `prefecture_region_match.csv`.
-* `seeds_2.10. csv` … Spreadsheet containing previously published seed impression data from Tokai and Central Highlands 
+* `seeds_2.10. csv` ... Spreadsheet containing previously published seed impression data from Tokai and Central Highlands 
 ### images 
-* `phase contrained and site map.R... Contains an Rscript for generating constrained arrival of rice in Tokai and Central Highlands and site map for fig. 1 in manuscript. 
+* `phase_sitemap.R... Contains an Rscript for generating constrained arrival of rice in Tokai and Central Highlands and site map for fig. 1 in manuscript. 
 ### results 
-* `Statistics tests of ORA results` ... contains results from statistical analysis of ORA results reported in manuscript from 
-* `phase.RData` and `phase_constrained. RData` ... Contains the R script for running the unconstrained and constrained versions of the hierarhichal Bayesian phase models. Results are shown in figure produced by phase contrained and site map.R 
-* `table_seed_freq.csv’… table of seed impression frequencies  
+* `StattestORA` ... contains results from statistical analysis of ORA results reported in manuscript from 
+* `phase.RData` and `phase_constrained... RData` ... Contains the R script for running the unconstrained and constrained versions of the hierarhichal Bayesian phase models. Results are shown in figure produced by phase contrained and site map.R 
+* `table_seed_freq.csv... table of seed impression frequencies  
 
 ### manuscript
 To be added after acceptance from journal 
