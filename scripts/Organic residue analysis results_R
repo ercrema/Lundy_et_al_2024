@@ -11,9 +11,10 @@ install.packages("extrafontdb")
 install.packages("ggrepel")
 install.packages("scales")
 install.packages("dplyr")
-install.packages("googlesheets4")
 install.packages("ggstar")
 install.packages("tibble")
+
+#Create a database from ORAresults
 
 #Filters 
 
@@ -21,15 +22,9 @@ ASA <-filter (ALLDATA,Site_code=="ASA")
 HL <-filter (ALLDATA,Subregion=="Central Highlands")
 TOK <-filter (ALLDATA,Subregion=="Tokai")
 
-# Modern reference experiments APAA18 E/H ratio box and dot plot 
-box_plotAPAAref <- ggplot(APAA, aes(x=Cat_code, y=APAA_EH, fill='grey')) +
-  geom_boxplot(width=0.8, size=0.5, outlier.size=1)+ geom_dotplot(binaxis="y", stackdir="center")+scale_fill_manual(values =c ("grey", "lightblue", "lightyellow" ,"lightgreen"))+
-  ylab("E/H APAA") + scale_y_continuous(position = "left",limits=c(0,12))+
-  theme_bw(base_size = 30)
-plot(box_plotAPAAref)
 
 # APAA18 E/H ratio of archaeological samples box and dot plot 
-box_plotALLAPPA1 <- ggplot(ALLDATA, aes(x=Site, y=EH, fill=Subregion)) +
+box_plotALLAPPA1 <- ggplot(ALLDATA, aes(x=Site, y=APAA_EH, fill=Subregion)) +
   geom_boxplot(width=0.8, size=0.2, outlier.size=1)+ geom_dotplot(binaxis="y", stackdir="center")+scale_fill_manual(values=c("#009E73", "#0072B2"))+
   ylab("E/H APAA") + scale_y_continuous(position = "left",limits=c(0,12))+
   theme_bw(base_size = 20)
@@ -89,19 +84,17 @@ REF <- ggplot()+
   annotate("text", label = "Ruminant", x = -29, y = -35, size = 4, colour = "black")+ 
   annotate("text", label = "C3 nuts", x = -35, y = -33, size = 4, colour = "black")+
   annotate("text", label = "Rice", x = -34, y = -34, size = 4, colour = "black")+ 
-  #annotate("text", label="*", x=-33.69, y=-32.57, size=6, colour ="red")+
-  #annotate("text", label="*", x=-32.96, y=-31.63, size=6, colour ="red")+
   stat_ellipse(geom= "polygon", data=JAP, alpha=0.2, linetype=2, level=0.68, aes (x=d13C16, y= d13C18, group=Catagory))+
   coord_fixed(ratio = 1)
 plot 1 <- REF + geom_star(data=TOK, aes(y=d13C18,x=d13C16, fill= Miliacin, starshape=Miliacin), size=4, stroke=3, alpha=0.8)+
   scale_fill_manual(values=cbPalette3)+coord_cartesian(ylim=c(-37,-17), xlim = c(-37,-17))+ scale_starshape_manual(name="Milllet biomarker", breaks=c("yes","no"),values=c(2,15))+
-  facet_grid (~ Phase_order)+  theme_bw(base_size = 25)+   theme(legend.position = "none")+
+  facet_grid (~ Phase)+  theme_bw(base_size = 25)+   theme(legend.position = "none")+
   theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())+ theme(strip.background = element_blank(), strip.text = element_blank())
 plot1
 
 plot 2 <- REF + geom_star(data=HL, aes(y=d13C18,x=d13C16, fill= Miliacin, starshape=Miliacin), size=4, stroke=3, alpha=0.8)+
   scale_fill_manual(values=cbPalette6)+coord_cartesian(ylim=c(-37,-17), xlim = c(-37,-17))+ scale_starshape_manual(name="Milllet biomarker", breaks=c("yes","no"),values=c(2,15))+
-  facet_grid (~ Phase_order)+  theme_bw(base_size = 25)+   theme(legend.position = "none")+
+  facet_grid (~ Phase)+  theme_bw(base_size = 25)+   theme(legend.position = "none")+
   theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())+ theme(strip.background = element_blank(), strip.text = element_blank())
 plot2
 
