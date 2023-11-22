@@ -15,7 +15,7 @@ The _data_ directory contains the organic residue analysis summary data, human i
 * `phase_sitemap.R`... Contains an Rscript for generating constrained arrival of rice in Tokai and Central Highlands and site map for fig. 1 in manuscript. 
 ### results 
 * `StattestORA` ... contains results from statistical analysis of ORA results reported in manuscript from 
-* `phase.RData` and `phase_constrained... RData` ... Contains the R script for running the unconstrained and constrained versions of the hierarhichal Bayesian phase models. Results are shown in figure produced by phase contrained and site map.R 
+* `phase.RData` and `phase_constrained.RData` ... Contains the R script for running the unconstrained and constrained versions of the hierarhichal Bayesian phase models. Results are shown in figure produced by phase contrained and site map.R 
 * `table_seed_freq.csv`... table of seed impression frequencies  
 
 ### manuscript
