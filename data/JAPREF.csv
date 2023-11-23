@@ -1,0 +1,138 @@
+﻿Class,Catagory ,Sample identifier ,Type,Taxa,d13C16,d13C18,BigD,Reference
+Boar,Wild non-ruminant ,,Wild boar,Sus scrofa,-26.13,-26.57,-0.44,Craig et al. 2013
+Boar,Wild non-ruminant ,,Wild boar,Sus scrofa,-27.71,-27.28,0.43,Craig et al. 2013
+Boar,Wild non-ruminant ,,Wild boar,Sus scrofa,-28.33,-27.21,1.12,Lucquin et al 2016
+Boar,Wild non-ruminant ,,Wild boar,Sus scrofa,-28.13,-28.87,-0.74,Lucquin et al 2016
+Boar,Wild non-ruminant ,,Wild boar,Sus scrofa,-27.75,-27.90,-0.15,Lucquin et al 2016
+Boar,Wild non-ruminant ,,Wild boar,Sus scrofa,-27.79,-29.22,-1.43,Lucquin et al 2016
+Boar,Wild non-ruminant ,,Wild boar,Sus scrofa,-29.49,-29.57,-0.08,Lucquin et al 2016
+Boar,Wild non-ruminant ,,Wild boar,Sus scrofa,-28.94,-29.50,-0.56,Lucquin et al 2016
+Boar,Wild non-ruminant ,,Wild boar,Sus scrofa,-28.27,-27.42,0.85,Lucquin et al 2016
+Boar,Wild non-ruminant ,,Wild boar,Sus scrofa,-28.24,-27.27,0.97,Miyata et al 2015
+Boar,Wild non-ruminant ,,Wild boar,Sus scrofa,-28.27,-27.37,0.90,Lucquin et al 2016
+Boar,Wild non-ruminant ,,Wild boar,Sus scrofa,-28.65,-27.68,0.97,Lucquin et al 2016
+Boar,Wild non-ruminant ,,Wild boar,Sus scrofa,-28.58,-27.79,0.79,Lucquin et al 2016
+Boar,Wild non-ruminant ,,Wild boar,Sus scrofa,-28.30,-27.20,1.10,Horiuchi et al. 2015
+Boar,Wild non-ruminant ,,Wild boar,Sus scrofa,-28.40,-27.10,1.30,Horiuchi et al. 2015
+Boar,Wild non-ruminant ,,Wild boar,Sus scrofa,-26.40,-26.90,-0.50,Horiuchi et al. 2015
+Boar,Wild non-ruminant ,,Wild boar,Sus scrofa,-28.10,-27.40,0.70,Horiuchi et al. 2015
+Deer,Wild ruminant ,,Yezo sika deer,Cervus nippon yesoensis,-28.74,-28.80,-0.06,Lucquin et al 2016
+Deer,Wild ruminant ,,Sika deer,Cervus nippon,-28.58,-30.21,-1.63,Lucquin et al 2016
+Deer,Wild ruminant ,,Yezo sika deer,Cervus nippon yesoensis,-31.12,-33.46,-2.34,Lucquin et al 2016
+Deer,Wild ruminant ,,Japanese serow,Capricornis crispus,-32.46,-34.11,-1.65,Lucquin et al 2016
+Deer,Wild ruminant ,,Sika deer,Cervus nippon,-28.97,-32.53,-3.56,Lucquin et al 2016
+Deer,Wild ruminant ,,Deer,,-29.05,-32.57,-3.52,Miyata et al 2015
+Deer,Wild ruminant ,,Japanese serow,Capricornis crispus,-32.44,-33.74,-1.30,Lucquin et al 2016
+Deer,Wild ruminant ,,Sika deer,Cervus nippon,-32.83,-36.03,-3.20,Lucquin et al 2016
+Deer,Wild ruminant ,,Sika deer,Cervus nippon,-29.00,-32.40,-3.40,Horiuchi et al. 2015
+Deer,Wild ruminant ,,Yezo sika deer,Cervus nippon yesoensis,-24.70,-26.60,-1.90,Horiuchi et al. 2015
+Plant,C3 plant,,Walnut,,-30.59,-31.80,-1.21,Miyata et al 2015
+Plant,C3 plant,,Acorn,Quercus sp.,-35.15,-32.77,2.38,Miyata et al 2015
+Plant,C3 plant,,Chestnut,Castanea sp.,-34.64,-33.54,1.10,Miyata et al 2015
+Plant,C3 plant,,Acorn,Quercus sp.,-37.67,-35.71,1.96,Miyata et al 2015
+Plant,C3 plant,,Chesnut,Castanea sp.,-29.43,-28.71,0.72,Heron et al 2016
+Plant,C3 plant,,Horse chesnut,Aesculus turbinata,-31.82,-29.56,2.26,Heron et al 2016
+Plant,C3 plant,,Acorn (Fagus crenata blume),Fagus crenata,-27.60,-28.35,-0.75,Heron et al 2016
+Plant,C3 plant,,Acorn,Quercus sp.,-33.70,-34.14,-0.44,Lucquin et al 2016
+Plant,C3 plant,,Chesnut,Castanea sp.,-33.35,-30.61,2.74,Heron et al 2016
+Plant,C3 plant,,Horse chesnut,Aesculus turbinata,-35.14,-34.94,0.20,Heron et al 2016
+Plant,C3 plant,,Horse chesnut,Aesculus turbinata,-32.51,-33.11,-0.60,Heron et al 2016
+Plant,C3 plant,,acorn,Quercus sp.,-32.38,-33.33,-0.95,Lucquin et al 2016
+Plant,C3 plant,,acorn,Quercus sp.,-34.77,-35.64,-0.87,Lucquin et al 2016
+Plant,C3 plant,,acorn,Quercus sp.,-32.81,-34.32,-1.51,Lucquin et al 2016
+Plant,C3 plant,,acorn,Quercus sp.,-31.81,-33.71,-1.90,Lucquin et al 2016
+Plant,C3 plant,,Japanese chestnut,Castanea crenata,-35.10,-32.70,2.40,Horiuchi et al. 2015
+Plant,C3 plant,,White oak,Quercus myrsinifolia,-34.70,-33.40,1.30,Horiuchi et al. 2015
+Plant,C3 plant,,Japanese stone oak,Lithocarpus edulis,-37.60,-35.70,1.90,Horiuchi et al. 2015
+Plant,C3 plant,,Japanese walnut,Juglans ailantifolia,-31.50,-31.40,0.10,Horiuchi et al. 2015
+Marine,Marine,,Sea bream,Gymnocranius euanus,-22.10,-21.77,0.33,Craig et al. 2013
+Marine,Marine,,Sea bream,Gymnocranius euanus,-22.36,-22.19,0.17,Craig et al. 2013
+Marine,Marine,,Roackfish,Sebastes sp.,-23.38,-22.76,0.62,Craig et al. 2013
+Marine,Marine,,Flathead mullet,Mugil cephalus,-21.60,-20.97,0.63,Craig et al. 2013
+Marine,Marine,,Croaker,Genyonemus lineatus,-21.45,-21.09,0.36,Craig et al. 2013
+Marine,Marine,,Tuna,Thunnus sp.,-25.25,-24.91,0.34,Lucquin et al 2016
+Marine,Marine,,Tuna,Thunnus sp.,-26.59,-25.07,1.52,Lucquin et al 2016
+Marine,Marine,,Short fin pilot whale,Globicephala macrorhynchus,-22.58,-22.96,-0.38,Lucquin et al 2016
+Marine,Marine,,Dolphin,,-19.39,-20.30,-0.91,Miyata et al 2015
+Marine,Marine,,Whale,,-24.52,-21.74,2.78,Miyata et al 2015
+Marine,Marine,,Seal,,-24.64,-23.10,1.54,Miyata et al 2015
+Marine,Marine,,Babylonia,Babylonia sp.,-23.25,-22.78,0.47,Lucquin et al 2016
+Marine,Marine,,Ruditapes,Venerupis philippinarum,-24.72,-23.68,1.04,Lucquin et al 2016
+Marine,Marine,,Pilot Whale,Globicephala sp.,-23.26,-23.51,-0.25,Lucquin et al 2016
+Marine,Marine,,Saltwater clam,Meretrixlvsoria,-25.20,-23.70,1.50,Horiuchi et al. 2015
+Marine,Marine,,Horned turban,Turbo cornutus,-22.90,-21.20,1.70,Horiuchi et al. 2015
+Marine,Marine,,Squid,Loligo bleekeri,-24.40,-23.80,0.60,Horiuchi et al. 2015
+Marine,Marine,,Finless porpoise,Neophocaena phocaenoides,-19.40,-20.00,-0.60,Horiuchi et al. 2015
+Marine,Marine,,Whale,Ziphiidae,-24.90,-23.00,1.90,Horiuchi et al. 2015
+Marine,Marine,,Sea lion,Eumetopias jubatus,-24.50,-21.60,2.90,Horiuchi et al. 2015
+Marine,Marine,,Japanese jack mackerel,Trachurus japonicus,-23.90,-23.60,0.30,Horiuchi et al. 2015
+Marine,Marine,,Japanese jack mackerel,Trachurus japonicus,-24.00,-25.30,-1.30,Horiuchi et al. 2015
+Marine,Marine,,Japanese jack mackerel,Trachurus japonicus,-23.70,-22.60,1.10,Horiuchi et al. 2015
+Marine,Marine,,Yellow tail,Seriola Ialandi,-24.60,-23.80,0.80,Horiuchi et al. 2015
+Marine,Marine,,Yellow tail,Seriola Ialandi,-24.90,-25.60,-0.70,Horiuchi et al. 2015
+Marine,Marine,,Yellow tail,Seriola Ialandi,-24.60,-22.90,1.70,Horiuchi et al. 2015
+Marine,Marine,,Yellow tail,Seriola Ialandi,-24.70,-23.70,1.00,Horiuchi et al. 2015
+Salmonids,Marine,,Salmon,Salmonidae sp.,-28.01,-28.72,-0.71,Craig et al. 2013
+Salmonids,Marine,,Salmon,Salmonidae sp.,-25.22,-26.79,-1.57,Craig et al. 2013
+Salmonids,Marine,,Salmon,Salmonidae sp.,-26.01,-27.33,-1.32,Craig et al. 2013
+Salmonids,Marine,,Trout,Salmonidae sp.,-26.74,-26.72,0.02,Craig et al. 2013
+Salmonids,Marine,,Trout,Salmonidae sp.,-27.64,-27.88,-0.24,Craig et al. 2013
+Salmonids,Marine,,Trout,Salmonidae sp.,-25.83,-26.24,-0.41,Craig et al. 2013
+Salmonids,Marine,,Trout,Salmonidae sp.,-25.02,-23.31,1.71,Lucquin et al 2016
+Salmonids,Marine,,Salmon,Salmonidae sp.,-26.72,-25.28,1.44,Lucquin et al 2016
+Salmonids,Marine,,Trout,Salmonidae sp.,-24.26,-24.64,-0.38,Lucquin et al 2016
+Salmonids,Marine,,Salmon,Salmonidae sp.,-28.57,-29.08,-0.51,Lucquin et al 2016
+Salmonids,Marine,,Salmon,Salmonidae sp.,-25.76,-24.75,1.01,Lucquin et al 2016
+Salmonids,Marine,,Salmon,Salmonidae sp.,-24.62,-23.54,1.08,Lucquin et al 2016
+Salmonids,Marine,,Salmon,Salmonidae sp.,-26.62,-25.61,1.01,Lucquin et al 2016
+Freshwater,Freshwater ,,Amur minnow,Rhynchocypris lagowskii,-27.43,-28.13,-0.70,Craig et al. 2013
+Freshwater,Freshwater ,,Topmouth gudgeon,Pseudorasbora parva,-26.95,-26.64,0.31,Craig et al. 2013
+Freshwater,Freshwater ,,Spotbill duck,Anas poecilorhyncha,-27.35,-27.94,-0.59,Craig et al. 2013
+Freshwater,Freshwater ,,Crucian Carp,Carassius sp.,-29.15,-29.30,-0.15,Lucquin et al 2016
+Freshwater,Freshwater ,,Crucian Carp,Carassius sp.,-29.18,-29.64,-0.46,Lucquin et al 2016
+Freshwater,Freshwater ,,Crucian Carp,Carassius sp.,-28.27,-29.91,-1.64,Lucquin et al 2016
+Freshwater,Freshwater ,,Crucian Carp,Carassius sp.,-28.76,-29.08,-0.32,Lucquin et al 2016
+Freshwater,Freshwater ,,Crucian Carp,Carassius sp.,-28.64,-29.26,-0.62,Lucquin et al 2016
+Freshwater,Freshwater ,,Freshwater clam,,-30.24,-30.03,0.21,Miyata et al 2015
+Freshwater,Freshwater ,,Scarce,,-28.23,-28.19,0.04,Lucquin et al 2016
+Freshwater,Freshwater ,,Eriocheir,Eriocheir sp.,-27.33,-27.94,-0.61,Lucquin et al 2016
+Freshwater,Freshwater ,,Freshwater clam,,-28.62,-28.06,0.56,Lucquin et al 2016
+Freshwater,Freshwater ,,Freshwater clam,Cyrenidae,-30.30,-29.70,0.60,Horiuchi et al. 2015
+C3 plant,Rice,RIZ,Rice,,-35.1,-35.5,-0.4,This study 
+C3 plant,Rice,RIZ,Rice,,-34.7,-35.1,-0.4,This study 
+C3 plant,Rice,RIEX_21F,Rice - half brown,Oryza sativa subsp. japonica,-34.0,-33.8,0.2,This study 
+C3 plant,Rice,MO_BRI,Rice - brown,Oryza sativa subsp. japonica,-33.5,-33.7,-0.2,This study 
+C3 plant,Rice,MO_HBRI,Rice - half brown,Oryza sativa subsp. japonica,-33.1,-33.3,-0.2,This study 
+C3 plant,Rice,MO_WRI,Rice - white,Oryza sativa subsp. japonica,-34.3,-33.7,0.6,This study 
+C3 plant,Rice,230_BRI,Rice - brown,Oryza sativa subsp. japonica,-33.0,-33.2,-0.2,This study 
+C3 plant,Rice,230_HBRI,Rice - half brown,Oryza sativa subsp. japonica,-33.2,-33.7,-0.5,This study 
+C3 plant,Rice,230_WRI,Rice - white,Oryza sativa subsp. japonica,-34.3,-33.8,0.5,This study 
+C3 plant,Rice,270_BRI,Rice - brown,Oryza sativa subsp. japonica,-32.7,-33.0,-0.3,This study 
+C3 plant,Rice,270_HBRI,Rice - half brown,Oryza sativa subsp. japonica,-32.0,-32.9,-0.9,This study 
+C3 plant,Rice,270_WRI,Rice - white,Oryza sativa subsp. japonica,-34.1,-33.6,0.5,This study 
+C3 plant,Rice,310_BRI,Rice - brown,Oryza sativa subsp. japonica,-32.8,-33.4,-0.6,This study 
+C3 plant,Rice,310_HBRI,Rice - half brown,Oryza sativa subsp. japonica,-31.4,-32.2,-0.8,This study 
+C3 plant ,Rice,Rice-JP-01-270,Rice,Oryza sativa subsp. japonica,-31.7,-32.5,-0.8,This study 
+C3 plant ,Rice,Rice-JP-03-270,Rice,Oryza sativa subsp. japonica,-31.2,-31.4,-0.2,This study 
+C3 plant ,Rice,Rice-JP-05-270,Rice,Oryza sativa subsp. japonica,-32.5,-32.5,0.0,This study 
+C3 plant ,Rice,Rice-JP-06-270,Rice,Oryza sativa subsp. japonica,-32.8,-34.3,-1.5,This study 
+C3 plant ,Rice,Rice-JP-07-270,Rice,Oryza sativa subsp. japonica,-34.1,-35.3,-1.2,This study 
+C3 plant ,Rice,Rice-JP-08-270,Rice,Oryza sativa subsp. japonica,-33.6,-33.8,-0.2,This study 
+C3 plant ,Rice,Rice-JP-09-270,Rice,Oryza sativa subsp. japonica,-33.9,-34.5,-0.6,This study 
+C3 plant ,Rice,Rice-JP-10-270,Rice,Oryza sativa subsp. japonica,-33.0,-32.7,0.3,This study 
+C4 plant ,Millet ,,Millet ,Panicum miliaceum,-19.4,-18.4,1.0,This study 
+C4 plant ,Millet ,,Millet ,Panicum miliaceum,-19.8,-18.8,1.0,This study 
+C4 plant ,Millet ,,Millet ,Panicum miliaceum,-19.4,-19.5,-0.1,Tache 2021
+C4 plant ,Millet ,,Millet ,Panicum miliaceum,-19.5,-20,-0.5,Tache 2021
+C4 plant ,Millet ,,Millet ,Panicum miliaceum,-17.8,-17.4,0.4,Tache 2021
+C4 plant ,Millet ,,Millet ,Panicum miliaceum,-19.5,-20,-0.5,Tache 2021
+C4 plant ,Millet ,,Millet ,Panicum miliaceum,-17.8,-17.4,0.4,Tache 2021
+C4 plant ,Millet ,,Millet ,Panicum miliaceum,-19.3,-20,-0.7,Tache 2021
+C4 plant ,Millet ,,Millet ,Panicum miliaceum,-17.8,-18.5,-0.7,Tache 2021
+C4 plant ,Millet ,,Millet ,Panicum miliaceum,-17.3,-18.2,-0.9,Tache 2021
+C4 plant ,Millet ,Millet-HM-03-270,Millet ,Eleusine coracana,-15.1,-15.1,0,This study 
+C4 plant ,Millet ,Millet-HM-05-270,Millet ,Echinochloa esculenta,-15.6,-16.4,-0.8,This study 
+C4 plant ,Millet ,Millet-HM-06-270,Millet ,Setaria italica,-15.5,-14,1.5,This study 
+C4 plant ,Millet ,Millet-JP-01,Millet ,Setaria italica,-17.1,-15.7,1.4,This study 
+C4 plant ,Millet ,Millet-JP-02-270,Millet ,Panicum miliaceum,-16.3,-15.9,0.4,This study 
+C4 plant ,Millet ,Millet-JP-03-270,Millet ,Echinochloa esculenta,-15,-16.3,-1.3,This study 
