@@ -1,18 +1,8 @@
 # R script for all plots used in figures presenting organic residue analysis data in manuscript and statistical tests 
 
-library(devtools)
-library(Rcpp)
 library(ggplot2)
-library(ggrepel)
-library(gridExtra)
-library(cowplot)
-library(extrafont)
-library(extrafontdb)
-library(ggrepel)
-library(scales)
 library(dplyr)
 library(ggstar)
-library(tibble)
 library(dunn.test)
 library(here)
 
