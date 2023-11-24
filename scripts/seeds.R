@@ -1,11 +1,7 @@
 # Load Libraries ----
 library(here)
-# library(latex2exp)
-# library(ggplot2)
 library(brms)
-# library(tidybayes)
 library(coda)
-# library(scales)
 
 # Custom functions ----
 logistic <- function(x)
