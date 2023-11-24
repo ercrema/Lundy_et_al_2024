@@ -110,4 +110,4 @@ posterior.constrained  <- do.call(rbind.data.frame,post.constrained)
 posterior.constrained  <- posterior.constrained[,which(!grepl('theta',colnames(posterior.constrained)))]
 
 # Save output ----
-save(posterior.constrained,rhat.unif.constrained,ess.unif.constrained,a.unif.constrained,file=here("results","phase_constrained.RData"))
+save(posterior.constrained,rhat.unif.constrained,ess.unif.constrained,a.unif.constrained,file=here("results","arrival_estimates.RData"))

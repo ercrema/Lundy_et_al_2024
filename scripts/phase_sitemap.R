@@ -14,7 +14,7 @@ library(marmap)
 library(gridBase)
 library(grid)
 
-load(here('results','phase_constrained.RData'))
+load(here('results','arrival_estimates.RData'))
 
 # Custom R functions ----
 fuzzyRect  <- function(xleft,xright,ybottom,ytop,fuzz,fuzz.n=100,col=adjustcolor('darkgrey',alpha=0.1))
@@ -83,7 +83,7 @@ zoomed <- ggplot() +
 
 # Plot everything ----
 
-pdf(file='figure2.pdf',width=8,height=5,pointsize=8)
+pdf(file='figure1.pdf',width=8,height=5,pointsize=8)
 par(mfrow=c(1,2),mar=c(7,4,4,0))
 plot(NULL,xlim=c(-1300,150),ylim=c(-1,10),axes=F,xlab='BCE/CE',ylab='')  
 axis(1,at=c(-1200,-1000,-800,-600,-400,-200,1,200),labels=c(1200,1000,800,600,400,200,1,200))

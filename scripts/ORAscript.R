@@ -32,8 +32,8 @@ custom_order <- c("UMK", "MMZ", "ASA", "NKY","NMI", "TSJ")
 ALLDATA$Site_code <- factor(ALLDATA$Site_code, levels = custom_order)
 TOK$Site_code <- factor(TOK$Site_code, levels = custom_order)
 HL$Site_code <- factor(HL$Site_code, levels = custom_order)
-HL$Miliacin <- ifelse(HL$Miliacin=='yes','yes','no') |> factor(levels=c('no','yes'))
-TOK$Miliacin <- ifelse(TOK$Miliacin=='yes','yes','no') |> factor(levels=c('no','yes'))
+HL$Miliacin <- ifelse(HL$Miliacin=='yes','yes','no') |> factor(levels=c('yes','no'),ordered=T)
+TOK$Miliacin <- ifelse(TOK$Miliacin=='yes','yes','no') |> factor(levels=c('no','yes'),ordered=T)
 
 
 # APAA18 E/H ratio of archaeological samples box and dot plot 
@@ -82,15 +82,16 @@ REF <- ggplot()+
   annotate("text", label = "Rice", x = -34, y = -34, size = 4, colour = "black")+ 
   stat_ellipse(geom= "polygon", data=JAPREF, alpha=0.2, linetype=2, level=0.68, aes (x=d13C16, y= d13C18, group=Catagory))+
   coord_fixed(ratio = 1)
-plot1 <- REF + geom_star(data=TOK, aes(y=d13C18,x=d13C16, fill= Miliacin, starshape=Miliacin), size=4, stroke=3, alpha=0.8)+
-  scale_fill_manual(values=cbPalette1)+coord_cartesian(ylim=c(-37,-17), xlim = c(-37,-17))+ scale_starshape_manual(name="Milllet biomarker", breaks=c("yes","no"),values=c(1,15))+
+
+plot1  <-  REF + geom_point(data=subset(TOK,Miliacin=='no'), aes(y=d13C18,x=d13C16),col=cbPalette1[1], size=4, alpha=0.8)+
+	geom_star(data=subset(TOK,Miliacin=='yes'),aes(y=d13C18,x=d13C16),size=4,stroke=3,fill=cbPalette1[2]) +
   facet_grid (~ Site_code)+  theme_bw(base_size = 25)+   theme(legend.position = "none")+
   theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())+ theme(strip.background = element_blank(), strip.text = element_blank())
 plot1
 
-plot2 <- REF + geom_star(data=HL, aes(y=d13C18,x=d13C16, fill= Miliacin, starshape=Miliacin), size=4, stroke=3, alpha=0.8)+
-  scale_fill_manual(values=cbPalette2)+coord_cartesian(ylim=c(-37,-17), xlim = c(-37,-17))+ scale_starshape_manual(name="Milllet biomarker", breaks=c("yes","no"),values=c(2,15))+
-  facet_grid (~ Phase)+  theme_bw(base_size = 25)+   theme(legend.position = "none")+
+plot2  <-  REF + geom_point(data=subset(HL,Miliacin=='no'), aes(y=d13C18,x=d13C16),col=cbPalette1[1], size=4, alpha=0.8)+
+	geom_star(data=subset(HL,Miliacin=='yes'),aes(y=d13C18,x=d13C16),size=4,stroke=3,fill=cbPalette1[2]) +
+  facet_grid (~ Site_code)+  theme_bw(base_size = 25)+   theme(legend.position = "none")+
   theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())+ theme(strip.background = element_blank(), strip.text = element_blank())
 plot2
 
