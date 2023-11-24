@@ -1,69 +1,49 @@
 # R script for all plots used in figures presenting organic residue analysis data in manuscript and statistical tests 
 
-library("devtools")
-library("Rcpp")
-library("ggplot2")
-library("ggrepel")
-library("gridExtra")
-library("cowplot")
-library("extrafont")
-library("extrafontdb")
-library("ggrepel")
-library("scales")
-library("dplyr")
-library("ggstar")
-library("tibble")
+library(devtools)
+library(Rcpp)
+library(ggplot2)
+library(ggrepel)
+library(gridExtra)
+library(cowplot)
+library(extrafont)
+library(extrafontdb)
+library(ggrepel)
+library(scales)
+library(dplyr)
+library(ggstar)
+library(tibble)
 library(dunn.test)
+library(here)
 
 #Read ORAresult spreadsheet 
-
-#download ORAresults.csv
-
-# Set the file path to your CSV file
-file_path1 <- "////ORAresults.csv"
-
-# Read data from the CSV file
-ALLDATA <- read.csv(file_path1)
-
+ALLDATA <- read.csv(here('data','ORAresults.csv'))
 # Display the first few rows of the data
-head(ALLDATA)
+# head(ALLDATA)
 
 #Read authentic modern reference fats spreadsheet
-
-#dowmload JAPREF.scv
-
-# Set the file path to your CSV file
-file_path2 <- "////JAPREF.csv"
-
-# Read data from the CSV file
-JAPREF <- read.csv(file_path2)
-
+JAPREF <- read.csv(here('data','JAPREF.csv'))
 # Display the first few rows of the data
-head(JAPREF)
+# head(JAPREF)
 
 #colour palettes 
-
 cbPalette1 <- c("#0072B2" ,"#F0E442")
 cbPalette2 <- c("#009E73","#F0E442" )
 
 
 #Filters 
-
-ASA <-filter (ALLDATA,Site_code=="ASA")
-HL <-filter (ALLDATA,Subregion=="Central Highlands")
-TOK <-filter (ALLDATA,Subregion=="Tokai")
+ASA <-filter(ALLDATA,Site_code=="ASA")
+HL <-filter(ALLDATA,Subregion=="Central Highlands")
+TOK <-filter(ALLDATA,Subregion=="Tokai")
 
 #levels 
-
 # Creating levels 
-
 custom_order <- c("UMK", "MMZ", "ASA", "NKY","NMI", "TSJ")
-custom_order2 <- c("no", "yes") 
 ALLDATA$Site_code <- factor(ALLDATA$Site_code, levels = custom_order)
 TOK$Site_code <- factor(TOK$Site_code, levels = custom_order)
 HL$Site_code <- factor(HL$Site_code, levels = custom_order)
-HL$Miliacin <- factor(HL$Miliacin, levels = custom_order2)
-TOK$Miliacin <- factor(TOK$Miliacin, levels = custom_order2)
+HL$Miliacin <- ifelse(HL$Miliacin=='yes','yes','no') |> factor(levels=c('no','yes'))
+TOK$Miliacin <- ifelse(TOK$Miliacin=='yes','yes','no') |> factor(levels=c('no','yes'))
 
 
 # APAA18 E/H ratio of archaeological samples box and dot plot 
