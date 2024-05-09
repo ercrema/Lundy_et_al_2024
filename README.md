@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/647683887.svg)](https://zenodo.org/doi/10.5281/zenodo.11164557)
+
 # Data and R scripts for the paper 'Culinary continuity in central Japan across the transition to agriculture'
 
 This repository contains data and R scripts for the following paper:
