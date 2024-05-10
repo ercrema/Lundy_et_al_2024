@@ -68,9 +68,9 @@ zoomed <- ggplot() +
 	geom_tile(data=dem,aes(x=x,y=y,fill=elevation)) +
 	scale_fill_etopo() +
 	geom_sf(data=sites.sf,size=1.5,col='black',pch=20) +
-	annotate('text',x=136.2,y=35.3,label='Ushimaki') +
+	annotate('text',x=136.2,y=35.3,label='Mamizuka') +
 	annotate('text',x=136.5,y=35.1,label='Asahi') +
-	annotate('text',x=137.5,y=35.4,label='Mamizuka') +
+	annotate('text',x=137.5,y=35.4,label='Ushimaki') +
 	annotate('text',x=138.5,y=35.2,label='Tenshoji') +
 	annotate('text',x=138.6,y=35.5,label='Nakaya') +
 	annotate('text',x=138.9,y=35.9,label='Nakamichi') +
