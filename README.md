@@ -1,7 +1,14 @@
-# Date and R scripts used for the organic residue analysis (ORA) study of Late Jomon to Yayoi pottery from Tokai and Central Highlands in Japan
+[![DOI](https://zenodo.org/badge/647683887.svg)](https://zenodo.org/doi/10.5281/zenodo.11164557)
 
-The repository is organised into four main directories: data, images, results and 
-The _data_ directory contains the organic residue analysis summary data, human isotope data and seed impression data, pre-processing script for c14 radiocarbon dates, and radiocarbon date dataset; images_ contains figures created from rscripts, results_  contains statistical analysis of ORA results, chronological phase data, constrained chronological phase data and seed impression frequencies, runscript_ contains all scripts for running the analyses in the paper. 
+# Data and R scripts for the paper 'Culinary continuity in central Japan across the transition to agriculture'
+
+This repository contains data and R scripts for the following paper:
+
+Lundy,J.,Bondetti,M.,Lucquin,A.,Talbot,H.M.,Murakami,N.,Nakayama,S.,Harada,M.,Suzuki,M.,Endo,E.,Stevens,C.,Crema,E.R.,Craig,O.E.,Shoda,S.(2024).Culinary continuity in central Japan across the transition to agriculture. Anthropological and Archaeological Sciences.https://doi.org/10.1007/s12520-024-01992-9   
+
+The repository is organised into four main directories: _data_, _scripts_, and _results_. 
+The _data_ directory contains the organic residue analysis summary data, human isotope and seed impression data, a pre-processing script for C14 radiocarbon dates, and a radiocarbon date dataset; _scripts_ contains all R scripts for executing the analyses, and _results_ contains output CSV and R image files. 
+
 
 # File Structure
 
@@ -21,7 +28,7 @@ The _data_ directory contains the organic residue analysis summary data, human i
 * `rice_arrival.R` ... Contains R scripts for the reanalysis of [Crema et al 2022](https://github.com/ercrema/yayoi_rice_dispersal) dataset.
   
 ### results 
-* `arrival_estimates.RData` ...  output of `rice_arrival.R` containing arrival dates in Chubu Highlands and Tokai.
+* `arrival_estimates.RData` ...  output of `rice_arrival.R`, containing arrival dates in Chubu Highlands and Tokai.
 * `table_seed_freq.csv`... output generated from the analyses of seed impression data (`seeds.R`)
 
 # R Session Info
