@@ -112,4 +112,4 @@ loaded via a namespace (and not attached):
 ```
 
 # Funding
-This research was funded by the ERC grant _Demography, Cultural Change, and the Diffusion of Rice and Millets during the Jomon-Yayoi transition in prehistoric Japan (ENCOUNTER)_ (Project N. 801953, PI: Enrico Crema).
+This research was funded by the ERC grant _Demography, Cultural Change, and the Diffusion of Rice and Millets during the Jomon-Yayoi transition in prehistoric Japan (ENCOUNTER)_ (Project N. 801953, PI: Enrico Crema) and the JSPS KAKENHI (grant numbers 21H04370, 20H05820 and 17H04777).
